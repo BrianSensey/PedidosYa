@@ -1,0 +1,217 @@
+{
+  "uid" : "be8f0f65dc33dc79",
+  "name" : "I confirm the address location",
+  "fullName" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name.I confirm the address location",
+  "historyId" : "4f1b3c923760608ce197ef83c8746ca",
+  "time" : {
+    "start" : 1564364880994,
+    "stop" : 1564364883052,
+    "duration" : 2058
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Element <a id=\"confirm\" href=\"javascript:void(0);\" class=\"button\">...</a> is not clickable at point (599, 492). Other element would receive the click: <section id=\"mapModal\" class=\"modal\" style=\"visibility: visible; width: 800px;\">...</section>",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at elementIdClick(\"0.7725863194713227-7\") - click.js:20:22",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Element <a id=\"confirm\" href=\"javascript:void(0);\" class=\"button\">...</a> is not clickable at point (599, 492). Other element would receive the click: <section id=\"mapModal\" class=\"modal\" style=\"visibility: visible; width: 800px;\">...</section>",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at elementIdClick(\"0.7725863194713227-7\") - click.js:20:22",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/f396284ba2650236abcf0dd38e5f6136/element",
+      "time" : {
+        "start" : 1564364880996,
+        "stop" : 1564364881020,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e4849ffcd360e1e6",
+        "name" : "Request",
+        "source" : "e4849ffcd360e1e6.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "9af33e72d5330728",
+        "name" : "Response",
+        "source" : "9af33e72d5330728.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/f396284ba2650236abcf0dd38e5f6136/elements",
+      "time" : {
+        "start" : 1564364881027,
+        "stop" : 1564364881045,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6cb5a3512a5271ab",
+        "name" : "Request",
+        "source" : "6cb5a3512a5271ab.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "f9f207678386a762",
+        "name" : "Response",
+        "source" : "f9f207678386a762.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/f396284ba2650236abcf0dd38e5f6136/element/0.7725863194713227-7/displayed",
+      "time" : {
+        "start" : 1564364881045,
+        "stop" : 1564364881071,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "238b9b454a48a536",
+        "name" : "Response",
+        "source" : "238b9b454a48a536.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/f396284ba2650236abcf0dd38e5f6136/element",
+      "time" : {
+        "start" : 1564364881071,
+        "stop" : 1564364881085,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "26a917cce2b27ba4",
+        "name" : "Request",
+        "source" : "26a917cce2b27ba4.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "1ecbb48545b31f92",
+        "name" : "Response",
+        "source" : "1ecbb48545b31f92.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/f396284ba2650236abcf0dd38e5f6136/element/0.7725863194713227-7/click",
+      "time" : {
+        "start" : 1564364881089,
+        "stop" : 1564364881146,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4497aba74e71d920",
+        "name" : "Response",
+        "source" : "4497aba74e71d920.json",
+        "type" : "application/json",
+        "size" : 933
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/f396284ba2650236abcf0dd38e5f6136/screenshot",
+      "time" : {
+        "start" : 1564364881150,
+        "stop" : 1564364883052,
+        "duration" : 1902
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An unknown server-side error occurred while processing the command.\n                    at elementIdClick(\"0.7725863194713227-7\") - click.js:20:22",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e8c2aeadad0efc5",
+        "name" : "Screenshot",
+        "source" : "3e8c2aeadad0efc5.png",
+        "type" : "image/png",
+        "size" : 951921
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I confirm the address location"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "be8f0f65dc33dc79.json",
+  "parameterValues" : [ "chrome" ]
+}

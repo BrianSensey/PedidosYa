@@ -1,0 +1,191 @@
+{
+  "uid" : "4c1e1b40ec4616bc",
+  "name" : "I confirm the address location",
+  "fullName" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name.I confirm the address location",
+  "historyId" : "4f1b3c923760608ce197ef83c8746ca",
+  "time" : {
+    "start" : 1564361585245,
+    "stop" : 1564361588429,
+    "duration" : 3184
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/094a217e3a728d2809b4142a3414cc2a/element",
+      "time" : {
+        "start" : 1564361585246,
+        "stop" : 1564361585258,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4937c010522f4341",
+        "name" : "Request",
+        "source" : "4937c010522f4341.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "9d4a2d53c8618544",
+        "name" : "Response",
+        "source" : "9d4a2d53c8618544.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/094a217e3a728d2809b4142a3414cc2a/elements",
+      "time" : {
+        "start" : 1564361585260,
+        "stop" : 1564361585275,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2b2a3666c93206b0",
+        "name" : "Request",
+        "source" : "2b2a3666c93206b0.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "cb6b68c7ea6ac004",
+        "name" : "Response",
+        "source" : "cb6b68c7ea6ac004.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/094a217e3a728d2809b4142a3414cc2a/element/0.5853980437824404-7/displayed",
+      "time" : {
+        "start" : 1564361585275,
+        "stop" : 1564361585288,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cfa9fb1a2fec4b6d",
+        "name" : "Response",
+        "source" : "cfa9fb1a2fec4b6d.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/094a217e3a728d2809b4142a3414cc2a/element",
+      "time" : {
+        "start" : 1564361585289,
+        "stop" : 1564361585297,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "345919fba4ad674a",
+        "name" : "Request",
+        "source" : "345919fba4ad674a.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "3748c17d6ce836ac",
+        "name" : "Response",
+        "source" : "3748c17d6ce836ac.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/094a217e3a728d2809b4142a3414cc2a/element/0.5853980437824404-7/click",
+      "time" : {
+        "start" : 1564361585299,
+        "stop" : 1564361588427,
+        "duration" : 3128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4a6e4c253eb03481",
+        "name" : "Response",
+        "source" : "4a6e4c253eb03481.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I confirm the address location"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4c1e1b40ec4616bc.json",
+  "parameterValues" : [ "chrome" ]
+}

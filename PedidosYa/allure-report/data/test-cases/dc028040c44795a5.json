@@ -1,0 +1,143 @@
+{
+  "uid" : "dc028040c44795a5",
+  "name" : "I verify the list of restaurants returns results",
+  "fullName" : "Search restaurants by address and restaurant Search gourmet restaurants using an address name.I verify the list of restaurants returns results",
+  "historyId" : "a803c21073a67a63502880243325afab",
+  "time" : {
+    "start" : 1564440658766,
+    "stop" : 1564440658822,
+    "duration" : 56
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/96beb4a5215be5270f8167584f102704/elements",
+      "time" : {
+        "start" : 1564440658767,
+        "stop" : 1564440658783,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f90012bf042c8eca",
+        "name" : "Request",
+        "source" : "f90012bf042c8eca.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "294585ff261416a9",
+        "name" : "Response",
+        "source" : "294585ff261416a9.json",
+        "type" : "application/json",
+        "size" : 361
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/96beb4a5215be5270f8167584f102704/elements",
+      "time" : {
+        "start" : 1564440658787,
+        "stop" : 1564440658800,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bf54cdbea0fd8452",
+        "name" : "Request",
+        "source" : "bf54cdbea0fd8452.json",
+        "type" : "application/json",
+        "size" : 117
+      }, {
+        "uid" : "dbb32bba2938c5ec",
+        "name" : "Response",
+        "source" : "dbb32bba2938c5ec.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/96beb4a5215be5270f8167584f102704/element/0.8900830323086082-5/text",
+      "time" : {
+        "start" : 1564440658803,
+        "stop" : 1564440658820,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2fb9799b71dc706b",
+        "name" : "Response",
+        "source" : "2fb9799b71dc706b.json",
+        "type" : "application/json",
+        "size" : 102
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search gourmet restaurants using an address name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using an address name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using an address name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I verify the list of restaurants returns results"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using an address name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dc028040c44795a5.json",
+  "parameterValues" : [ "chrome" ]
+}

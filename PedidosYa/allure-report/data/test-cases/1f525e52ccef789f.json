@@ -1,0 +1,197 @@
+{
+  "uid" : "1f525e52ccef789f",
+  "name" : "I search two \"Pizzeta tranqui (32 cm)\" in menu search field",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I search two \"Pizzeta tranqui (32 cm)\" in menu search field",
+  "historyId" : "aa43f0876a953860dd335d60f93aba26",
+  "time" : {
+    "start" : 1564326163989,
+    "stop" : 1564326167451,
+    "duration" : 3462
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/76d1034908e130ff3d1b01eba091e273/element",
+      "time" : {
+        "start" : 1564326163991,
+        "stop" : 1564326164013,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "29e2785695b54c54",
+        "name" : "Request",
+        "source" : "29e2785695b54c54.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "9bb319bc7300597b",
+        "name" : "Response",
+        "source" : "9bb319bc7300597b.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/76d1034908e130ff3d1b01eba091e273/element/0.6370706855015718-1/clear",
+      "time" : {
+        "start" : 1564326164014,
+        "stop" : 1564326164036,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd964ad8f9d0167d",
+        "name" : "Response",
+        "source" : "fd964ad8f9d0167d.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/76d1034908e130ff3d1b01eba091e273/element/0.6370706855015718-1/value",
+      "time" : {
+        "start" : 1564326164036,
+        "stop" : 1564326164399,
+        "duration" : 363
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db6f56da55732d0e",
+        "name" : "Request",
+        "source" : "db6f56da55732d0e.json",
+        "type" : "application/json",
+        "size" : 361
+      }, {
+        "uid" : "aa51cd1cb4050ef9",
+        "name" : "Response",
+        "source" : "aa51cd1cb4050ef9.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/76d1034908e130ff3d1b01eba091e273/element",
+      "time" : {
+        "start" : 1564326165408,
+        "stop" : 1564326165422,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1099b05f7b89a20b",
+        "name" : "Request",
+        "source" : "1099b05f7b89a20b.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "4f24ab742d733bd9",
+        "name" : "Response",
+        "source" : "4f24ab742d733bd9.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/76d1034908e130ff3d1b01eba091e273/element",
+      "time" : {
+        "start" : 1564326166432,
+        "stop" : 1564326166443,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "903259fb1654eef7",
+        "name" : "Request",
+        "source" : "903259fb1654eef7.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "8518c9ae02083836",
+        "name" : "Response",
+        "source" : "8518c9ae02083836.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I search two \"Pizzeta tranqui (32 cm)\" in menu search field"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f525e52ccef789f.json",
+  "parameterValues" : [ "chrome" ]
+}

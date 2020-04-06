@@ -1,0 +1,143 @@
+{
+  "uid" : "af2baabd0849a812",
+  "name" : "I verify the order appears has a discount today and what percentage it is",
+  "fullName" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name.I verify the order appears has a discount today and what percentage it is",
+  "historyId" : "a52f8cfbbe8048fc21692635a92190d6",
+  "time" : {
+    "start" : 1564377512993,
+    "stop" : 1564377513038,
+    "duration" : 45
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/a8315276e173567f14c846e4d18899f6/elements",
+      "time" : {
+        "start" : 1564377512993,
+        "stop" : 1564377513007,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6252e6e0cac9ed08",
+        "name" : "Request",
+        "source" : "6252e6e0cac9ed08.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "979350ce18bc730c",
+        "name" : "Response",
+        "source" : "979350ce18bc730c.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/a8315276e173567f14c846e4d18899f6/element",
+      "time" : {
+        "start" : 1564377513008,
+        "stop" : 1564377513020,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bb0c87015998ed8e",
+        "name" : "Request",
+        "source" : "bb0c87015998ed8e.json",
+        "type" : "application/json",
+        "size" : 90
+      }, {
+        "uid" : "f8196cbb748431b",
+        "name" : "Response",
+        "source" : "f8196cbb748431b.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/a8315276e173567f14c846e4d18899f6/element/0.29000543353916863-5/text",
+      "time" : {
+        "start" : 1564377513022,
+        "stop" : 1564377513038,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8bd00235b6a28092",
+        "name" : "Response",
+        "source" : "8bd00235b6a28092.json",
+        "type" : "application/json",
+        "size" : 102
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I verify the order appears has a discount today and what percentage it is"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af2baabd0849a812.json",
+  "parameterValues" : [ "chrome" ]
+}

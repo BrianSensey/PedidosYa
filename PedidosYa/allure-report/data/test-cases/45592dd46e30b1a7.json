@@ -1,0 +1,99 @@
+{
+  "uid" : "45592dd46e30b1a7",
+  "name" : "I verify all restaurants have the word “Gourmet” in their name",
+  "fullName" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name.I verify all restaurants have the word “Gourmet” in their name",
+  "historyId" : "8346927f4034c3ea629cdc754eccd560",
+  "time" : {
+    "start" : 1564360901623,
+    "stop" : 1564360901659,
+    "duration" : 36
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'lenght' of null",
+  "statusTrace" : "TypeError: Cannot read property 'lenght' of null\n                    at ExcerciseSearch.countGourmetRestaurants (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/pageobjects/ExcerciseSearch.page.js:97:16)\n                    at World.<anonymous> (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/stepDefinitions/search.steps.js:91:35)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/brianduenas/Documents/TrainingQA/PedidosYa/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'lenght' of null",
+    "statusTrace" : "TypeError: Cannot read property 'lenght' of null\n                    at ExcerciseSearch.countGourmetRestaurants (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/pageobjects/ExcerciseSearch.page.js:97:16)\n                    at World.<anonymous> (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/stepDefinitions/search.steps.js:91:35)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/brianduenas/Documents/TrainingQA/PedidosYa/node_modules/core-js/library/modules/_export.js:36:28)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/00f69591c2d35d7b982321fb1e03c381/element",
+      "time" : {
+        "start" : 1564360901624,
+        "stop" : 1564360901649,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "26c39afa05632ad0",
+        "name" : "Request",
+        "source" : "26c39afa05632ad0.json",
+        "type" : "application/json",
+        "size" : 92
+      }, {
+        "uid" : "e2e67643ea70cf59",
+        "name" : "Response",
+        "source" : "e2e67643ea70cf59.json",
+        "type" : "application/json",
+        "size" : 671
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I verify all restaurants have the word “Gourmet” in their name"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "45592dd46e30b1a7.json",
+  "parameterValues" : [ "chrome" ]
+}

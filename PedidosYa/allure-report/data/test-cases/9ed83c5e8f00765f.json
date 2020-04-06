@@ -1,0 +1,276 @@
+{
+  "uid" : "9ed83c5e8f00765f",
+  "name" : "I am on the home page",
+  "fullName" : "Search restaurants Search restaurants by address.I am on the home page",
+  "historyId" : "83c3284ba87de390ef8b3781c32c83d",
+  "time" : {
+    "start" : 1563806860312,
+    "stop" : 1563806862345,
+    "duration" : 2033
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/bb92007e3a326192dc9b11e1293842ae/url",
+      "time" : {
+        "start" : 1563806860312,
+        "stop" : 1563806862300,
+        "duration" : 1988
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6b282cb540be7e2f",
+        "name" : "Request",
+        "source" : "6b282cb540be7e2f.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "ae549baa1b6eed3b",
+        "name" : "Response",
+        "source" : "ae549baa1b6eed3b.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/bb92007e3a326192dc9b11e1293842ae/element",
+      "time" : {
+        "start" : 1563806862301,
+        "stop" : 1563806862314,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f51127518ca22e25",
+        "name" : "Request",
+        "source" : "f51127518ca22e25.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "335702633f3cac09",
+        "name" : "Response",
+        "source" : "335702633f3cac09.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/bb92007e3a326192dc9b11e1293842ae/elements",
+      "time" : {
+        "start" : 1563806862316,
+        "stop" : 1563806862328,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a31789ea17c22764",
+        "name" : "Request",
+        "source" : "a31789ea17c22764.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "2c7840ac0c77829c",
+        "name" : "Response",
+        "source" : "2c7840ac0c77829c.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/bb92007e3a326192dc9b11e1293842ae/element/0.40278424821226566-1/displayed",
+      "time" : {
+        "start" : 1563806862328,
+        "stop" : 1563806862343,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fa0418e98a38a3a8",
+        "name" : "Response",
+        "source" : "fa0418e98a38a3a8.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants by address"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants Search restaurants by address"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants Search restaurants by address"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants Search restaurants by address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7216ea86501c7a67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563806855128,
+        "stop" : 1563806860297,
+        "duration" : 5169
+      }
+    }, {
+      "uid" : "552cf85f16ca3ea0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563806833922,
+        "stop" : 1563806835436,
+        "duration" : 1514
+      }
+    }, {
+      "uid" : "528a036470269663",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563806828707,
+        "stop" : 1563806833905,
+        "duration" : 5198
+      }
+    }, {
+      "uid" : "f47493bfd78169c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563806490703,
+        "stop" : 1563806492885,
+        "duration" : 2182
+      }
+    }, {
+      "uid" : "6aa00bb595c7a661",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563806485730,
+        "stop" : 1563806490687,
+        "duration" : 4957
+      }
+    }, {
+      "uid" : "d64f8d4a9e6fcc8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563806467038,
+        "stop" : 1563806468683,
+        "duration" : 1645
+      }
+    }, {
+      "uid" : "9daa64695c0c407d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563806460826,
+        "stop" : 1563806467020,
+        "duration" : 6194
+      }
+    }, {
+      "uid" : "53f1de1f2bdb3194",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563665232642,
+        "stop" : 1563665234313,
+        "duration" : 1671
+      }
+    }, {
+      "uid" : "b5ac4b8ad090b2fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563665227054,
+        "stop" : 1563665232619,
+        "duration" : 5565
+      }
+    }, {
+      "uid" : "916c61519557ca1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563665188330,
+        "stop" : 1563665189639,
+        "duration" : 1309
+      }
+    }, {
+      "uid" : "c3667fd3d36fc4d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563665174513,
+        "stop" : 1563665188311,
+        "duration" : 13798
+      }
+    }, {
+      "uid" : "c7779dc529a5ad0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563665082326,
+        "stop" : 1563665083646,
+        "duration" : 1320
+      }
+    }, {
+      "uid" : "2692c3810aed0736",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563665076888,
+        "stop" : 1563665082306,
+        "duration" : 5418
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ed83c5e8f00765f.json",
+  "parameterValues" : [ "chrome" ]
+}

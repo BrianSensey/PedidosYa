@@ -1,0 +1,95 @@
+{
+  "uid" : "a146f69f4f0a782a",
+  "name" : "I verify the order appears correctly in “Mi pedido” section",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I verify the order appears correctly in “Mi pedido” section",
+  "historyId" : "b74af9a53a72b620c65efbc4ce4f78fc",
+  "time" : {
+    "start" : 1564245620833,
+    "stop" : 1564245620851,
+    "duration" : 18
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/4ffabf7986f2239e1c08df2ca2773ded/elements",
+      "time" : {
+        "start" : 1564245620834,
+        "stop" : 1564245620848,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "af077a030a3653",
+        "name" : "Request",
+        "source" : "af077a030a3653.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "5e900ba936e061a8",
+        "name" : "Response",
+        "source" : "5e900ba936e061a8.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I verify the order appears correctly in “Mi pedido” section"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a146f69f4f0a782a.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,170 @@
+{
+  "uid" : "60ec0131bac09cda",
+  "name" : "I am on the home page",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I am on the home page",
+  "historyId" : "85adfb96f6e709183f59d7d52c260051",
+  "time" : {
+    "start" : 1564186173052,
+    "stop" : 1564186179828,
+    "duration" : 6776
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/022f4e871964efc072ffbf23c569f824/url",
+      "time" : {
+        "start" : 1564186173055,
+        "stop" : 1564186179770,
+        "duration" : 6715
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "37d8f7631885a25",
+        "name" : "Request",
+        "source" : "37d8f7631885a25.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "8e73c7672b226025",
+        "name" : "Response",
+        "source" : "8e73c7672b226025.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/022f4e871964efc072ffbf23c569f824/element",
+      "time" : {
+        "start" : 1564186179773,
+        "stop" : 1564186179790,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8f18fb1d7fd006eb",
+        "name" : "Request",
+        "source" : "8f18fb1d7fd006eb.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "bc107951053cfef2",
+        "name" : "Response",
+        "source" : "bc107951053cfef2.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/022f4e871964efc072ffbf23c569f824/elements",
+      "time" : {
+        "start" : 1564186179795,
+        "stop" : 1564186179811,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bfe79f1ff170cf52",
+        "name" : "Request",
+        "source" : "bfe79f1ff170cf52.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "e45f36ee2b8df687",
+        "name" : "Response",
+        "source" : "e45f36ee2b8df687.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/022f4e871964efc072ffbf23c569f824/element/0.5549382945089181-1/displayed",
+      "time" : {
+        "start" : 1564186179812,
+        "stop" : 1564186179825,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d77d76ec6d3df77d",
+        "name" : "Response",
+        "source" : "d77d76ec6d3df77d.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "60ec0131bac09cda.json",
+  "parameterValues" : [ "chrome" ]
+}

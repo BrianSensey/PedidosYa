@@ -1,0 +1,153 @@
+{
+  "uid" : "b85afda447be0f03",
+  "name" : "I choose a restaurant option",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I choose a restaurant option",
+  "historyId" : "a56b94bcd5e968b6e364ef120660c950",
+  "time" : {
+    "start" : 1563909378979,
+    "stop" : 1563909379030,
+    "duration" : 51
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'value' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'value' of undefined\n                    at ExcerciseSearch.getBestRankedRestaurant (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/pageobjects/ExcerciseSearch.page.js:58:21)\n                    at World.<anonymous> (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/stepDefinitions/search.steps.js:35:22)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/brianduenas/Documents/TrainingQA/PedidosYa/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'value' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'value' of undefined\n                    at ExcerciseSearch.getBestRankedRestaurant (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/pageobjects/ExcerciseSearch.page.js:58:21)\n                    at World.<anonymous> (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/stepDefinitions/search.steps.js:35:22)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/brianduenas/Documents/TrainingQA/PedidosYa/node_modules/core-js/library/modules/_export.js:36:28)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/9ec65dce5bed041a7700648fed309a6b/elements",
+      "time" : {
+        "start" : 1563909378980,
+        "stop" : 1563909378994,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "de795570480098c6",
+        "name" : "Request",
+        "source" : "de795570480098c6.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "31a935155482502d",
+        "name" : "Response",
+        "source" : "31a935155482502d.json",
+        "type" : "application/json",
+        "size" : 227
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/9ec65dce5bed041a7700648fed309a6b/elements",
+      "time" : {
+        "start" : 1563909378998,
+        "stop" : 1563909379009,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bc548fc9764196c6",
+        "name" : "Request",
+        "source" : "bc548fc9764196c6.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "d2b3a5d6e8f4ad1c",
+        "name" : "Response",
+        "source" : "d2b3a5d6e8f4ad1c.json",
+        "type" : "application/json",
+        "size" : 227
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/9ec65dce5bed041a7700648fed309a6b/elements",
+      "time" : {
+        "start" : 1563909379012,
+        "stop" : 1563909379024,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a10d48dddc4e4c0f",
+        "name" : "Request",
+        "source" : "a10d48dddc4e4c0f.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "cbb0b3e64e51948",
+        "name" : "Response",
+        "source" : "cbb0b3e64e51948.json",
+        "type" : "application/json",
+        "size" : 227
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I choose a restaurant option"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b85afda447be0f03.json",
+  "parameterValues" : [ "chrome" ]
+}

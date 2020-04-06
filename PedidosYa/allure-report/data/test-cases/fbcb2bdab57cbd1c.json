@@ -1,0 +1,148 @@
+{
+  "uid" : "fbcb2bdab57cbd1c",
+  "name" : "I choose a restaurant option",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I choose a restaurant option",
+  "historyId" : "a56b94bcd5e968b6e364ef120660c950",
+  "time" : {
+    "start" : 1563913939865,
+    "stop" : 1563913940875,
+    "duration" : 1010
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "selector needs to be typeof `string`",
+  "statusTrace" : "Error: selector needs to be typeof `string`\n                    at element() - index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selector needs to be typeof `string`",
+    "statusTrace" : "Error: selector needs to be typeof `string`\n                    at element() - index.js:316:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/ea512096996cb1910d68721b35397036/elements",
+      "time" : {
+        "start" : 1563913939866,
+        "stop" : 1563913939894,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "621cbe5b0509dcec",
+        "name" : "Request",
+        "source" : "621cbe5b0509dcec.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "8789fb940b871d7",
+        "name" : "Response",
+        "source" : "8789fb940b871d7.json",
+        "type" : "application/json",
+        "size" : 229
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/ea512096996cb1910d68721b35397036/elements",
+      "time" : {
+        "start" : 1563913939898,
+        "stop" : 1563913939911,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ec9d3dfea40480f1",
+        "name" : "Request",
+        "source" : "ec9d3dfea40480f1.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "6a43e79600051c0a",
+        "name" : "Response",
+        "source" : "6a43e79600051c0a.json",
+        "type" : "application/json",
+        "size" : 229
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/ea512096996cb1910d68721b35397036/screenshot",
+      "time" : {
+        "start" : 1563913939915,
+        "stop" : 1563913940875,
+        "duration" : 960
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: selector needs to be typeof `string`\n                    at element() - index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aa153f7d12ac3fd8",
+        "name" : "Screenshot",
+        "source" : "aa153f7d12ac3fd8.png",
+        "type" : "image/png",
+        "size" : 1113490
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I choose a restaurant option"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fbcb2bdab57cbd1c.json",
+  "parameterValues" : [ "chrome" ]
+}

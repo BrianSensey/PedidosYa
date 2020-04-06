@@ -1,0 +1,126 @@
+{
+  "uid" : "7f8acf63d5296296",
+  "name" : "I verify the list of restaurants returns results",
+  "fullName" : "Search restaurants by address and restaurant Search gourmet restaurants using an address name.I verify the list of restaurants returns results",
+  "historyId" : "a803c21073a67a63502880243325afab",
+  "time" : {
+    "start" : 1564437233643,
+    "stop" : 1564437233690,
+    "duration" : 47
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "$(...).map is not a function",
+  "statusTrace" : "TypeError: $(...).map is not a function\n                    at ExcerciseSearch.printRestaurantInfo (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/pageobjects/ExcerciseSearch.page.js:135:57)\n                    at World.<anonymous> (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/stepDefinitions/search.steps.js:107:25)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/brianduenas/Documents/TrainingQA/PedidosYa/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "$(...).map is not a function",
+    "statusTrace" : "TypeError: $(...).map is not a function\n                    at ExcerciseSearch.printRestaurantInfo (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/pageobjects/ExcerciseSearch.page.js:135:57)\n                    at World.<anonymous> (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/stepDefinitions/search.steps.js:107:25)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/brianduenas/Documents/TrainingQA/PedidosYa/node_modules/core-js/library/modules/_export.js:36:28)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/4b503f6adb0db29e304da0077a22beff/elements",
+      "time" : {
+        "start" : 1564437233644,
+        "stop" : 1564437233660,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7bf1f4cea954466b",
+        "name" : "Request",
+        "source" : "7bf1f4cea954466b.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "fd6de583e35585b5",
+        "name" : "Response",
+        "source" : "fd6de583e35585b5.json",
+        "type" : "application/json",
+        "size" : 361
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/4b503f6adb0db29e304da0077a22beff/element",
+      "time" : {
+        "start" : 1564437233664,
+        "stop" : 1564437233683,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "78592d2f3b63ce26",
+        "name" : "Request",
+        "source" : "78592d2f3b63ce26.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "3d9dfef3b5de0de7",
+        "name" : "Response",
+        "source" : "3d9dfef3b5de0de7.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search gourmet restaurants using an address name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using an address name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using an address name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I verify the list of restaurants returns results"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using an address name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f8acf63d5296296.json",
+  "parameterValues" : [ "chrome" ]
+}

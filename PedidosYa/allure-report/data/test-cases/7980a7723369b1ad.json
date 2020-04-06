@@ -1,0 +1,143 @@
+{
+  "uid" : "7980a7723369b1ad",
+  "name" : "I search \"Pizza con mozzarella\" in menu search field",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I search \"Pizza con mozzarella\" in menu search field",
+  "historyId" : "5d78ad0a50372767c17431178b27e078",
+  "time" : {
+    "start" : 1564008176134,
+    "stop" : 1564008176747,
+    "duration" : 613
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/c012008eab43eeaf4ecbdf5b6584c6b5/element",
+      "time" : {
+        "start" : 1564008176135,
+        "stop" : 1564008176173,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "58ab9678827deb72",
+        "name" : "Request",
+        "source" : "58ab9678827deb72.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "a16314c265952271",
+        "name" : "Response",
+        "source" : "a16314c265952271.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/c012008eab43eeaf4ecbdf5b6584c6b5/element/0.6661936181361559-1/clear",
+      "time" : {
+        "start" : 1564008176175,
+        "stop" : 1564008176202,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fb000f002966ef12",
+        "name" : "Response",
+        "source" : "fb000f002966ef12.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/c012008eab43eeaf4ecbdf5b6584c6b5/element/0.6661936181361559-1/value",
+      "time" : {
+        "start" : 1564008176202,
+        "stop" : 1564008176746,
+        "duration" : 544
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b4d67317a125df55",
+        "name" : "Request",
+        "source" : "b4d67317a125df55.json",
+        "type" : "application/json",
+        "size" : 319
+      }, {
+        "uid" : "3a2cb9569a073339",
+        "name" : "Response",
+        "source" : "3a2cb9569a073339.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I search \"Pizza con mozzarella\" in menu search field"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7980a7723369b1ad.json",
+  "parameterValues" : [ "chrome" ]
+}

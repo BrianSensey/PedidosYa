@@ -1,0 +1,126 @@
+{
+  "uid" : "e1689480da7c70bf",
+  "name" : "I verify all restaurants have the word \"Gourmet\" in their name",
+  "fullName" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name.I verify all restaurants have the word \"Gourmet\" in their name",
+  "historyId" : "fd08f2ac250509dd362fdaf61e7959ef",
+  "time" : {
+    "start" : 1564375120075,
+    "stop" : 1564375120164,
+    "duration" : 89
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "this will fail: expected false to be truthy",
+  "statusTrace" : "AssertionError: this will fail: expected false to be truthy\n                    at World.<anonymous> (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/stepDefinitions/search.steps.js:89:14)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/brianduenas/Documents/TrainingQA/PedidosYa/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "this will fail: expected false to be truthy",
+    "statusTrace" : "AssertionError: this will fail: expected false to be truthy\n                    at World.<anonymous> (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/stepDefinitions/search.steps.js:89:14)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/brianduenas/Documents/TrainingQA/PedidosYa/node_modules/core-js/library/modules/_export.js:36:28)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/d29a3f378b618694f21206caf6dd2c3c/elements",
+      "time" : {
+        "start" : 1564375120080,
+        "stop" : 1564375120123,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f05de7ccb4288836",
+        "name" : "Request",
+        "source" : "f05de7ccb4288836.json",
+        "type" : "application/json",
+        "size" : 108
+      }, {
+        "uid" : "10f7074cde98a42a",
+        "name" : "Response",
+        "source" : "10f7074cde98a42a.json",
+        "type" : "application/json",
+        "size" : 562
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/d29a3f378b618694f21206caf6dd2c3c/elements",
+      "time" : {
+        "start" : 1564375120132,
+        "stop" : 1564375120149,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7852dc7adee66ca4",
+        "name" : "Request",
+        "source" : "7852dc7adee66ca4.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "b9654802f4d81773",
+        "name" : "Response",
+        "source" : "b9654802f4d81773.json",
+        "type" : "application/json",
+        "size" : 567
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I verify all restaurants have the word \"Gourmet\" in their name"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1689480da7c70bf.json",
+  "parameterValues" : [ "chrome" ]
+}

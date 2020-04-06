@@ -1,0 +1,143 @@
+{
+  "uid" : "bf45868691ce2360",
+  "name" : "I search two \"Pizzeta tranqui (32 cm)\" in menu search field",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I search two \"Pizzeta tranqui (32 cm)\" in menu search field",
+  "historyId" : "aa43f0876a953860dd335d60f93aba26",
+  "time" : {
+    "start" : 1564245812282,
+    "stop" : 1564245813992,
+    "duration" : 1710
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/ad6341e92b52f6b4acc7f932b4bf01d2/element",
+      "time" : {
+        "start" : 1564245812284,
+        "stop" : 1564245812329,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "873f4d8c064c2d9a",
+        "name" : "Request",
+        "source" : "873f4d8c064c2d9a.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "a02b251ecb491178",
+        "name" : "Response",
+        "source" : "a02b251ecb491178.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/ad6341e92b52f6b4acc7f932b4bf01d2/element/0.9187212304699535-1/clear",
+      "time" : {
+        "start" : 1564245812338,
+        "stop" : 1564245812375,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8113f06581d12a5d",
+        "name" : "Response",
+        "source" : "8113f06581d12a5d.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/ad6341e92b52f6b4acc7f932b4bf01d2/element/0.9187212304699535-1/value",
+      "time" : {
+        "start" : 1564245812375,
+        "stop" : 1564245812988,
+        "duration" : 613
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "baa0e2d84c49d7cd",
+        "name" : "Request",
+        "source" : "baa0e2d84c49d7cd.json",
+        "type" : "application/json",
+        "size" : 361
+      }, {
+        "uid" : "ab964a7d4510a683",
+        "name" : "Response",
+        "source" : "ab964a7d4510a683.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I search two \"Pizzeta tranqui (32 cm)\" in menu search field"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf45868691ce2360.json",
+  "parameterValues" : [ "chrome" ]
+}

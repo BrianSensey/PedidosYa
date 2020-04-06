@@ -1,0 +1,95 @@
+{
+  "uid" : "c08dc8c209aa1117",
+  "name" : "I verify the order appears has a discount today and what percentage it is",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I verify the order appears has a discount today and what percentage it is",
+  "historyId" : "9fe60d33428e4bcfe870e7323289c71e",
+  "time" : {
+    "start" : 1564250951265,
+    "stop" : 1564250951281,
+    "duration" : 16
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/e0f66f3c367e55cff722907228e6bf1c/elements",
+      "time" : {
+        "start" : 1564250951266,
+        "stop" : 1564250951278,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "70646becb372d731",
+        "name" : "Request",
+        "source" : "70646becb372d731.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "24e00a6ad4114b11",
+        "name" : "Response",
+        "source" : "24e00a6ad4114b11.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I verify the order appears has a discount today and what percentage it is"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c08dc8c209aa1117.json",
+  "parameterValues" : [ "chrome" ]
+}

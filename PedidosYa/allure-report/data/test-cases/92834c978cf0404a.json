@@ -1,0 +1,95 @@
+{
+  "uid" : "92834c978cf0404a",
+  "name" : "I verify the list of restaurants returns results",
+  "fullName" : "Search restaurants by address and restaurant Search gourmet restaurants using an address name.I verify the list of restaurants returns results",
+  "historyId" : "a803c21073a67a63502880243325afab",
+  "time" : {
+    "start" : 1564449887116,
+    "stop" : 1564449887136,
+    "duration" : 20
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/d9b3a16e46ff76c66170a82084d48c2c/elements",
+      "time" : {
+        "start" : 1564449887117,
+        "stop" : 1564449887131,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d53c18596bc8b90a",
+        "name" : "Request",
+        "source" : "d53c18596bc8b90a.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "c0200c79a35e57ef",
+        "name" : "Response",
+        "source" : "c0200c79a35e57ef.json",
+        "type" : "application/json",
+        "size" : 361
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search gourmet restaurants using an address name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using an address name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using an address name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I verify the list of restaurants returns results"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using an address name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "92834c978cf0404a.json",
+  "parameterValues" : [ "chrome" ]
+}

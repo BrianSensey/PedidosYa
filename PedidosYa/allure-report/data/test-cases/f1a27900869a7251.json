@@ -1,0 +1,143 @@
+{
+  "uid" : "f1a27900869a7251",
+  "name" : "I verify the price of the order",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I verify the price of the order",
+  "historyId" : "6f797e79b3dddef1e6d16f1d0873e50d",
+  "time" : {
+    "start" : 1564250951282,
+    "stop" : 1564250951322,
+    "duration" : 40
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/e0f66f3c367e55cff722907228e6bf1c/element",
+      "time" : {
+        "start" : 1564250951283,
+        "stop" : 1564250951295,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "407f4d95b57a80f",
+        "name" : "Request",
+        "source" : "407f4d95b57a80f.json",
+        "type" : "application/json",
+        "size" : 114
+      }, {
+        "uid" : "965a3412ee846039",
+        "name" : "Response",
+        "source" : "965a3412ee846039.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/e0f66f3c367e55cff722907228e6bf1c/element/0.3204635572882413-4/text",
+      "time" : {
+        "start" : 1564250951296,
+        "stop" : 1564250951312,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cde96e9e1a4c97b6",
+        "name" : "Response",
+        "source" : "cde96e9e1a4c97b6.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/e0f66f3c367e55cff722907228e6bf1c/elements",
+      "time" : {
+        "start" : 1564250951312,
+        "stop" : 1564250951320,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6d20303b1e61a816",
+        "name" : "Request",
+        "source" : "6d20303b1e61a816.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "9f2d16a726ec3422",
+        "name" : "Response",
+        "source" : "9f2d16a726ec3422.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I verify the price of the order"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f1a27900869a7251.json",
+  "parameterValues" : [ "chrome" ]
+}

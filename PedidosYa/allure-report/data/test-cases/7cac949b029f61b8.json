@@ -1,0 +1,174 @@
+{
+  "uid" : "7cac949b029f61b8",
+  "name" : "I search two \"Pizzeta tranqui (32 cm)\" in menu search field",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I search two \"Pizzeta tranqui (32 cm)\" in menu search field",
+  "historyId" : "aa43f0876a953860dd335d60f93aba26",
+  "time" : {
+    "start" : 1564325358147,
+    "stop" : 1564325359724,
+    "duration" : 1577
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "his is not defined",
+  "statusTrace" : "ReferenceError: his is not defined\n                    at ExcerciseSearch.clickOrdertOption (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/pageobjects/ExcerciseSearch.page.js:26:21)\n                    at World.<anonymous> (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/stepDefinitions/search.steps.js:55:22)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/brianduenas/Documents/TrainingQA/PedidosYa/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "his is not defined",
+    "statusTrace" : "ReferenceError: his is not defined\n                    at ExcerciseSearch.clickOrdertOption (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/pageobjects/ExcerciseSearch.page.js:26:21)\n                    at World.<anonymous> (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/stepDefinitions/search.steps.js:55:22)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/brianduenas/Documents/TrainingQA/PedidosYa/node_modules/core-js/library/modules/_export.js:36:28)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/a5a6292e04a8a2865e734b0c7054d54d/element",
+      "time" : {
+        "start" : 1564325358148,
+        "stop" : 1564325358169,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8dc20463a1609f3c",
+        "name" : "Request",
+        "source" : "8dc20463a1609f3c.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "4c381fc502018e50",
+        "name" : "Response",
+        "source" : "4c381fc502018e50.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/a5a6292e04a8a2865e734b0c7054d54d/element/0.2841278575703854-1/clear",
+      "time" : {
+        "start" : 1564325358172,
+        "stop" : 1564325358196,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ca4a580a416d9e00",
+        "name" : "Response",
+        "source" : "ca4a580a416d9e00.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/a5a6292e04a8a2865e734b0c7054d54d/element/0.2841278575703854-1/value",
+      "time" : {
+        "start" : 1564325358197,
+        "stop" : 1564325358696,
+        "duration" : 499
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fa9230079f3298d9",
+        "name" : "Request",
+        "source" : "fa9230079f3298d9.json",
+        "type" : "application/json",
+        "size" : 361
+      }, {
+        "uid" : "87c75f8037b72c2c",
+        "name" : "Response",
+        "source" : "87c75f8037b72c2c.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/a5a6292e04a8a2865e734b0c7054d54d/element",
+      "time" : {
+        "start" : 1564325359702,
+        "stop" : 1564325359719,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6b0d4eec73adbb14",
+        "name" : "Request",
+        "source" : "6b0d4eec73adbb14.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "af3d6fd50d3c6075",
+        "name" : "Response",
+        "source" : "af3d6fd50d3c6075.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I search two \"Pizzeta tranqui (32 cm)\" in menu search field"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7cac949b029f61b8.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,95 @@
+{
+  "uid" : "b893ea0112ab8b43",
+  "name" : "I pick the one that has more rating",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I pick the one that has more rating",
+  "historyId" : "8ee1d5b77b25269ccb21f8614e9782b3",
+  "time" : {
+    "start" : 1563898106640,
+    "stop" : 1563898106662,
+    "duration" : 22
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/c71dfeb6f87867c04e9807352ab8ccae/elements",
+      "time" : {
+        "start" : 1563898106641,
+        "stop" : 1563898106657,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24fcc5bda4a31abc",
+        "name" : "Request",
+        "source" : "24fcc5bda4a31abc.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "542b3618d417a594",
+        "name" : "Response",
+        "source" : "542b3618d417a594.json",
+        "type" : "application/json",
+        "size" : 229
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I pick the one that has more rating"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b893ea0112ab8b43.json",
+  "parameterValues" : [ "chrome" ]
+}

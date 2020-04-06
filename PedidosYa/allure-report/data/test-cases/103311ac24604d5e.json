@@ -1,0 +1,121 @@
+{
+  "uid" : "103311ac24604d5e",
+  "name" : "I place \"Chajá\" in the order",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I place \"Chajá\" in the order",
+  "historyId" : "742ec742b76b8faf1feed19c461f7444",
+  "time" : {
+    "start" : 1563975509189,
+    "stop" : 1563975510261,
+    "duration" : 1072
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"#menuSearch\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"#menuSearch\").\n                    at setValue(\"Chajá\") - index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"#menuSearch\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"#menuSearch\").\n                    at setValue(\"Chajá\") - index.js:316:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/3cfc91364e75edf43c9417686c0b8388/element",
+      "time" : {
+        "start" : 1563975509191,
+        "stop" : 1563975509214,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1a7efe3498a61ce8",
+        "name" : "Request",
+        "source" : "1a7efe3498a61ce8.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "84ef62724b17f99",
+        "name" : "Response",
+        "source" : "84ef62724b17f99.json",
+        "type" : "application/json",
+        "size" : 605
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/3cfc91364e75edf43c9417686c0b8388/screenshot",
+      "time" : {
+        "start" : 1563975509215,
+        "stop" : 1563975510261,
+        "duration" : 1046
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"#menuSearch\").\n                    at setValue(\"Chajá\") - index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9848a39ae674120c",
+        "name" : "Screenshot",
+        "source" : "9848a39ae674120c.png",
+        "type" : "image/png",
+        "size" : 1109975
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I place \"Chajá\" in the order"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "103311ac24604d5e.json",
+  "parameterValues" : [ "chrome" ]
+}

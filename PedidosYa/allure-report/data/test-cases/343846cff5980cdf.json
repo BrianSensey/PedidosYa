@@ -1,0 +1,174 @@
+{
+  "uid" : "343846cff5980cdf",
+  "name" : "I search two \"Pizzeta tranqui (32 cm)\" in menu search field",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I search two \"Pizzeta tranqui (32 cm)\" in menu search field",
+  "historyId" : "aa43f0876a953860dd335d60f93aba26",
+  "time" : {
+    "start" : 1564325160082,
+    "stop" : 1564325161585,
+    "duration" : 1503
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'waitForVisible' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'waitForVisible' of undefined\n                    at ExcerciseSearch.clickOrdertOption (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/pageobjects/ExcerciseSearch.page.js:26:25)\n                    at World.<anonymous> (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/stepDefinitions/search.steps.js:55:22)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/brianduenas/Documents/TrainingQA/PedidosYa/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'waitForVisible' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'waitForVisible' of undefined\n                    at ExcerciseSearch.clickOrdertOption (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/pageobjects/ExcerciseSearch.page.js:26:25)\n                    at World.<anonymous> (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/stepDefinitions/search.steps.js:55:22)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/brianduenas/Documents/TrainingQA/PedidosYa/node_modules/core-js/library/modules/_export.js:36:28)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/1142352ea704ab6156d1504dd38ffd5d/element",
+      "time" : {
+        "start" : 1564325160083,
+        "stop" : 1564325160105,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4ea3d3bd84505c03",
+        "name" : "Request",
+        "source" : "4ea3d3bd84505c03.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "22933c1d59f12c1c",
+        "name" : "Response",
+        "source" : "22933c1d59f12c1c.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/1142352ea704ab6156d1504dd38ffd5d/element/0.2562728458557575-1/clear",
+      "time" : {
+        "start" : 1564325160106,
+        "stop" : 1564325160129,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "754a50c8700eef81",
+        "name" : "Response",
+        "source" : "754a50c8700eef81.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/1142352ea704ab6156d1504dd38ffd5d/element/0.2562728458557575-1/value",
+      "time" : {
+        "start" : 1564325160129,
+        "stop" : 1564325160550,
+        "duration" : 421
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "482e093333eb4ca1",
+        "name" : "Request",
+        "source" : "482e093333eb4ca1.json",
+        "type" : "application/json",
+        "size" : 361
+      }, {
+        "uid" : "dfe4f5222cfd0423",
+        "name" : "Response",
+        "source" : "dfe4f5222cfd0423.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/1142352ea704ab6156d1504dd38ffd5d/element",
+      "time" : {
+        "start" : 1564325161559,
+        "stop" : 1564325161576,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "df674e79a92b212e",
+        "name" : "Request",
+        "source" : "df674e79a92b212e.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "ad76b426e23b4318",
+        "name" : "Response",
+        "source" : "ad76b426e23b4318.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I search two \"Pizzeta tranqui (32 cm)\" in menu search field"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "343846cff5980cdf.json",
+  "parameterValues" : [ "chrome" ]
+}

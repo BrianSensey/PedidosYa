@@ -1,0 +1,126 @@
+{
+  "uid" : "79c063c3b9e99304",
+  "name" : "I choose a restaurant option",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I choose a restaurant option",
+  "historyId" : "a56b94bcd5e968b6e364ef120660c950",
+  "time" : {
+    "start" : 1563909883445,
+    "stop" : 1563909883483,
+    "duration" : 38
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "document is not defined",
+  "statusTrace" : "ReferenceError: document is not defined\n                    at ExcerciseSearch.getBestRankedRestaurant (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/pageobjects/ExcerciseSearch.page.js:59:28)\n                    at World.<anonymous> (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/stepDefinitions/search.steps.js:35:22)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/brianduenas/Documents/TrainingQA/PedidosYa/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "document is not defined",
+    "statusTrace" : "ReferenceError: document is not defined\n                    at ExcerciseSearch.getBestRankedRestaurant (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/pageobjects/ExcerciseSearch.page.js:59:28)\n                    at World.<anonymous> (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/stepDefinitions/search.steps.js:35:22)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/brianduenas/Documents/TrainingQA/PedidosYa/node_modules/core-js/library/modules/_export.js:36:28)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/958eb36f565b2ef74a4658c1aa5ef7d6/elements",
+      "time" : {
+        "start" : 1563909883446,
+        "stop" : 1563909883464,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cbc0159c8b539825",
+        "name" : "Request",
+        "source" : "cbc0159c8b539825.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "99b8b60c734a6853",
+        "name" : "Response",
+        "source" : "99b8b60c734a6853.json",
+        "type" : "application/json",
+        "size" : 227
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/958eb36f565b2ef74a4658c1aa5ef7d6/elements",
+      "time" : {
+        "start" : 1563909883469,
+        "stop" : 1563909883477,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2d29d06421f0829e",
+        "name" : "Request",
+        "source" : "2d29d06421f0829e.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "6d0544ef1b79d3f3",
+        "name" : "Response",
+        "source" : "6d0544ef1b79d3f3.json",
+        "type" : "application/json",
+        "size" : 227
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I choose a restaurant option"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "79c063c3b9e99304.json",
+  "parameterValues" : [ "chrome" ]
+}

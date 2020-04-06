@@ -1,0 +1,147 @@
+{
+  "uid" : "46315330baa170ad",
+  "name" : "I search two \"Pizzeta tranqui (32 cm)\" in menu search field",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I search two \"Pizzeta tranqui (32 cm)\" in menu search field",
+  "historyId" : "aa43f0876a953860dd335d60f93aba26",
+  "time" : {
+    "start" : 1564327493057,
+    "stop" : 1564327494494,
+    "duration" : 1437
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "isEven.waitForVisible is not a function",
+  "statusTrace" : "TypeError: isEven.waitForVisible is not a function\n                    at ExcerciseSearch.clickOrdertOption (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/pageobjects/ExcerciseSearch.page.js:29:16)\n                    at World.<anonymous> (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/stepDefinitions/search.steps.js:55:22)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/brianduenas/Documents/TrainingQA/PedidosYa/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "isEven.waitForVisible is not a function",
+    "statusTrace" : "TypeError: isEven.waitForVisible is not a function\n                    at ExcerciseSearch.clickOrdertOption (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/pageobjects/ExcerciseSearch.page.js:29:16)\n                    at World.<anonymous> (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/stepDefinitions/search.steps.js:55:22)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/brianduenas/Documents/TrainingQA/PedidosYa/node_modules/core-js/library/modules/_export.js:36:28)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/71633a217e1e1cbdd0413148bc3ad1a8/element",
+      "time" : {
+        "start" : 1564327493058,
+        "stop" : 1564327493079,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e30b904d52a47a3",
+        "name" : "Request",
+        "source" : "3e30b904d52a47a3.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "c39c5ecc37f017ff",
+        "name" : "Response",
+        "source" : "c39c5ecc37f017ff.json",
+        "type" : "application/json",
+        "size" : 135
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/71633a217e1e1cbdd0413148bc3ad1a8/element/0.865400529176303-1/clear",
+      "time" : {
+        "start" : 1564327493082,
+        "stop" : 1564327493105,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ca71b6e5f724bf9b",
+        "name" : "Response",
+        "source" : "ca71b6e5f724bf9b.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/71633a217e1e1cbdd0413148bc3ad1a8/element/0.865400529176303-1/value",
+      "time" : {
+        "start" : 1564327493105,
+        "stop" : 1564327493480,
+        "duration" : 375
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c0d6b947fab2102b",
+        "name" : "Request",
+        "source" : "c0d6b947fab2102b.json",
+        "type" : "application/json",
+        "size" : 361
+      }, {
+        "uid" : "e5004d860b24e235",
+        "name" : "Response",
+        "source" : "e5004d860b24e235.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I search two \"Pizzeta tranqui (32 cm)\" in menu search field"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "46315330baa170ad.json",
+  "parameterValues" : [ "chrome" ]
+}

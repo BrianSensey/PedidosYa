@@ -1,0 +1,382 @@
+{
+  "uid" : "5225e1a93eb2f014",
+  "name" : "I filter by \"Picadas\" category",
+  "fullName" : "Search restaurants by address and restaurant Search gourmet restaurants using an address name.I filter by \"Picadas\" category",
+  "historyId" : "2623c14ab7bbb4f204b81ad44e18a395",
+  "time" : {
+    "start" : 1564455031063,
+    "stop" : 1564455036192,
+    "duration" : 5129
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/d6066756de215556491f8385e9268814/element",
+      "time" : {
+        "start" : 1564455031064,
+        "stop" : 1564455031090,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "815c13096060171d",
+        "name" : "Request",
+        "source" : "815c13096060171d.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "a6f4bb323fddb994",
+        "name" : "Response",
+        "source" : "a6f4bb323fddb994.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/d6066756de215556491f8385e9268814/elements",
+      "time" : {
+        "start" : 1564455031092,
+        "stop" : 1564455031107,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9685c0339c7bdc2",
+        "name" : "Request",
+        "source" : "9685c0339c7bdc2.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "75bf1ace8b8729b0",
+        "name" : "Response",
+        "source" : "75bf1ace8b8729b0.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/d6066756de215556491f8385e9268814/element/0.2867273471931924-1/displayed",
+      "time" : {
+        "start" : 1564455031107,
+        "stop" : 1564455031119,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ef8ca048ab4df482",
+        "name" : "Response",
+        "source" : "ef8ca048ab4df482.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/d6066756de215556491f8385e9268814/element/0.2867273471931924-1/click",
+      "time" : {
+        "start" : 1564455031120,
+        "stop" : 1564455036190,
+        "duration" : 5070
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2699db2540e0ea16",
+        "name" : "Response",
+        "source" : "2699db2540e0ea16.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search gourmet restaurants using an address name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using an address name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using an address name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I filter by \"Picadas\" category"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using an address name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7cc032dd180623ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564453003714,
+        "stop" : 1564453008159,
+        "duration" : 4445
+      }
+    }, {
+      "uid" : "22aeb0da558355e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564452043918,
+        "stop" : 1564452053234,
+        "duration" : 9316
+      }
+    }, {
+      "uid" : "954aac08475619cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564451486877,
+        "stop" : 1564451496845,
+        "duration" : 9968
+      }
+    }, {
+      "uid" : "de2d2f9327428539",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564451379753,
+        "stop" : 1564451385250,
+        "duration" : 5497
+      }
+    }, {
+      "uid" : "d5eec665f5c54f72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564450733816,
+        "stop" : 1564450740037,
+        "duration" : 6221
+      }
+    }, {
+      "uid" : "409ea912e5651ff3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1564450435309,
+        "stop" : 1564450435310,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2e4e6dc419884b49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564449867799,
+        "stop" : 1564449872100,
+        "duration" : 4301
+      }
+    }, {
+      "uid" : "4d39404ba8b61003",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564448787499,
+        "stop" : 1564448790778,
+        "duration" : 3279
+      }
+    }, {
+      "uid" : "5ae262acad66c373",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564440641643,
+        "stop" : 1564440643755,
+        "duration" : 2112
+      }
+    }, {
+      "uid" : "1e4886ba83d22d61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564440561454,
+        "stop" : 1564440564181,
+        "duration" : 2727
+      }
+    }, {
+      "uid" : "b58ff5c22542d7cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564440466632,
+        "stop" : 1564440470734,
+        "duration" : 4102
+      }
+    }, {
+      "uid" : "f96b84ffb55a0e21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564439279726,
+        "stop" : 1564439282185,
+        "duration" : 2459
+      }
+    }, {
+      "uid" : "3e9f324641dd1964",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564437427170,
+        "stop" : 1564437429463,
+        "duration" : 2293
+      }
+    }, {
+      "uid" : "11e15adad24fadf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564437224378,
+        "stop" : 1564437228633,
+        "duration" : 4255
+      }
+    }, {
+      "uid" : "338e3c1443c2cce3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564430085044,
+        "stop" : 1564430088301,
+        "duration" : 3257
+      }
+    }, {
+      "uid" : "24710b9ac0bed53e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564425110222,
+        "stop" : 1564425113068,
+        "duration" : 2846
+      }
+    }, {
+      "uid" : "25d548a9e897b0a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564424964048,
+        "stop" : 1564424966805,
+        "duration" : 2757
+      }
+    }, {
+      "uid" : "bb2ca03e03532a0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564424268259,
+        "stop" : 1564424271198,
+        "duration" : 2939
+      }
+    }, {
+      "uid" : "414b062be55d1895",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564424159052,
+        "stop" : 1564424164488,
+        "duration" : 5436
+      }
+    }, {
+      "uid" : "4eddf067d4339f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564421400150,
+        "stop" : 1564421404487,
+        "duration" : 4337
+      }
+    }, {
+      "uid" : "7235918afa236554",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564421054278,
+        "stop" : 1564421058474,
+        "duration" : 4196
+      }
+    }, {
+      "uid" : "7f4dbd069409bd26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564420675433,
+        "stop" : 1564420678293,
+        "duration" : 2860
+      }
+    }, {
+      "uid" : "e4de934ce3cc1311",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564420597455,
+        "stop" : 1564420600044,
+        "duration" : 2589
+      }
+    }, {
+      "uid" : "9b84dd23418b65e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564420527008,
+        "stop" : 1564420530335,
+        "duration" : 3327
+      }
+    }, {
+      "uid" : "6a82d5f6e98581a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564420157002,
+        "stop" : 1564420161890,
+        "duration" : 4888
+      }
+    }, {
+      "uid" : "e6d74fc011f503fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564419599728,
+        "stop" : 1564419602418,
+        "duration" : 2690
+      }
+    }, {
+      "uid" : "8f212a3d0635d0f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564381710936,
+        "stop" : 1564381712312,
+        "duration" : 1376
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5225e1a93eb2f014.json",
+  "parameterValues" : [ "chrome" ]
+}

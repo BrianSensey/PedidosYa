@@ -1,0 +1,170 @@
+{
+  "uid" : "44801673ad10ddf2",
+  "name" : "I am on the home page",
+  "fullName" : "Performing a login Log in with correct credentials.I am on the home page",
+  "historyId" : "e81a72e5d8f8881590e4284158677d4f",
+  "time" : {
+    "start" : 1563812636637,
+    "stop" : 1563812643422,
+    "duration" : 6785
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/b1f1bd572937021905a2cc54e2106662/url",
+      "time" : {
+        "start" : 1563812636641,
+        "stop" : 1563812643332,
+        "duration" : 6691
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "23b7f3f6eb3130e3",
+        "name" : "Request",
+        "source" : "23b7f3f6eb3130e3.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "a7dd46522e39e626",
+        "name" : "Response",
+        "source" : "a7dd46522e39e626.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/b1f1bd572937021905a2cc54e2106662/element",
+      "time" : {
+        "start" : 1563812643336,
+        "stop" : 1563812643359,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d2e2cf8a2dc8d95",
+        "name" : "Request",
+        "source" : "5d2e2cf8a2dc8d95.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "438cc268356a9be4",
+        "name" : "Response",
+        "source" : "438cc268356a9be4.json",
+        "type" : "application/json",
+        "size" : 139
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/b1f1bd572937021905a2cc54e2106662/elements",
+      "time" : {
+        "start" : 1563812643367,
+        "stop" : 1563812643381,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8253478607997327",
+        "name" : "Request",
+        "source" : "8253478607997327.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "a49964369b99293",
+        "name" : "Response",
+        "source" : "a49964369b99293.json",
+        "type" : "application/json",
+        "size" : 163
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/b1f1bd572937021905a2cc54e2106662/element/0.0037338425305715184-1/displayed",
+      "time" : {
+        "start" : 1563812643382,
+        "stop" : 1563812643415,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "953783d78838b871",
+        "name" : "Response",
+        "source" : "953783d78838b871.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Log in with correct credentials"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login Log in with correct credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login Log in with correct credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login Log in with correct credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "44801673ad10ddf2.json",
+  "parameterValues" : [ "chrome" ]
+}

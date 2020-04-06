@@ -1,0 +1,191 @@
+{
+  "uid" : "73535f731e32b7d6",
+  "name" : "I filter by restaurants that accept credit card",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I filter by restaurants that accept credit card",
+  "historyId" : "fc24b6c1692cfd281a71fbfd2c074ef0",
+  "time" : {
+    "start" : 1564200724626,
+    "stop" : 1564200726153,
+    "duration" : 1527
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/29bc3b0a4cfacf27a119f96531293f2a/element",
+      "time" : {
+        "start" : 1564200724629,
+        "stop" : 1564200724654,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "50659e477bc492e8",
+        "name" : "Request",
+        "source" : "50659e477bc492e8.json",
+        "type" : "application/json",
+        "size" : 75
+      }, {
+        "uid" : "15db388c3dcdb78e",
+        "name" : "Response",
+        "source" : "15db388c3dcdb78e.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/29bc3b0a4cfacf27a119f96531293f2a/elements",
+      "time" : {
+        "start" : 1564200724657,
+        "stop" : 1564200724670,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b8fec5d8cbd5b6cf",
+        "name" : "Request",
+        "source" : "b8fec5d8cbd5b6cf.json",
+        "type" : "application/json",
+        "size" : 75
+      }, {
+        "uid" : "f71bca8144412a77",
+        "name" : "Response",
+        "source" : "f71bca8144412a77.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/29bc3b0a4cfacf27a119f96531293f2a/element/0.24160984669164454-1/displayed",
+      "time" : {
+        "start" : 1564200724670,
+        "stop" : 1564200724766,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "376ecd71d42fdbd6",
+        "name" : "Response",
+        "source" : "376ecd71d42fdbd6.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/29bc3b0a4cfacf27a119f96531293f2a/element",
+      "time" : {
+        "start" : 1564200724767,
+        "stop" : 1564200724780,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "52cea9214e1a9f9b",
+        "name" : "Request",
+        "source" : "52cea9214e1a9f9b.json",
+        "type" : "application/json",
+        "size" : 75
+      }, {
+        "uid" : "10f627745229b1b9",
+        "name" : "Response",
+        "source" : "10f627745229b1b9.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/29bc3b0a4cfacf27a119f96531293f2a/element/0.24160984669164454-1/click",
+      "time" : {
+        "start" : 1564200724781,
+        "stop" : 1564200726151,
+        "duration" : 1370
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4316967431ebfbe8",
+        "name" : "Response",
+        "source" : "4316967431ebfbe8.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I filter by restaurants that accept credit card"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "73535f731e32b7d6.json",
+  "parameterValues" : [ "chrome" ]
+}

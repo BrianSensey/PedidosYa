@@ -1,0 +1,148 @@
+{
+  "uid" : "56a12ef49f3e1b90",
+  "name" : "I filter by restaurants that accept credit card",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I filter by restaurants that accept credit card",
+  "historyId" : "fc24b6c1692cfd281a71fbfd2c074ef0",
+  "time" : {
+    "start" : 1563839676771,
+    "stop" : 1563839677623,
+    "duration" : 852
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: document.getElementsByTagName(...).click is not a function",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) - index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: document.getElementsByTagName(...).click is not a function",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) - index.js:316:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/400b8d76d632795295692a691831f8d8/execute",
+      "time" : {
+        "start" : 1563839676772,
+        "stop" : 1563839676789,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "be9dc723f505e0ed",
+        "name" : "Request",
+        "source" : "be9dc723f505e0ed.json",
+        "type" : "application/json",
+        "size" : 164
+      }, {
+        "uid" : "498938e1add2b9fe",
+        "name" : "Response",
+        "source" : "498938e1add2b9fe.json",
+        "type" : "application/json",
+        "size" : 537
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/400b8d76d632795295692a691831f8d8/execute/sync",
+      "time" : {
+        "start" : 1563839676789,
+        "stop" : 1563839676795,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cfdc7203f70bbe30",
+        "name" : "Request",
+        "source" : "cfdc7203f70bbe30.json",
+        "type" : "application/json",
+        "size" : 164
+      }, {
+        "uid" : "a1ba41e72ff90ace",
+        "name" : "Response",
+        "source" : "a1ba41e72ff90ace.json",
+        "type" : "application/json",
+        "size" : 537
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/400b8d76d632795295692a691831f8d8/screenshot",
+      "time" : {
+        "start" : 1563839676797,
+        "stop" : 1563839677623,
+        "duration" : 826
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) - index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4eab2e8ef5aaae50",
+        "name" : "Screenshot",
+        "source" : "4eab2e8ef5aaae50.png",
+        "type" : "image/png",
+        "size" : 1000553
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I filter by restaurants that accept credit card"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "56a12ef49f3e1b90.json",
+  "parameterValues" : [ "chrome" ]
+}

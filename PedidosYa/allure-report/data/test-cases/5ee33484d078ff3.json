@@ -1,0 +1,121 @@
+{
+  "uid" : "5ee33484d078ff3",
+  "name" : "I verify all restaurants have the word “Gourmet” in their name",
+  "fullName" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name.I verify all restaurants have the word “Gourmet” in their name",
+  "historyId" : "8346927f4034c3ea629cdc754eccd560",
+  "time" : {
+    "start" : 1564360464516,
+    "stop" : 1564360465596,
+    "duration" : 1080
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid selector: An invalid or illegal selector was specified",
+  "statusTrace" : "Error: Argument was an invalid selector (e.g. XPath/CSS).\n                    at element(\"li[class='restaurant-wrapper peyaCard show'] section:nth-child(2) header:first-child h3:first-child a:first-child*=Gourmet\") - index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid selector: An invalid or illegal selector was specified",
+    "statusTrace" : "Error: Argument was an invalid selector (e.g. XPath/CSS).\n                    at element(\"li[class='restaurant-wrapper peyaCard show'] section:nth-child(2) header:first-child h3:first-child a:first-child*=Gourmet\") - index.js:316:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/c85f8ba5a89c8d8b84f1e99a09752a61/element",
+      "time" : {
+        "start" : 1564360464518,
+        "stop" : 1564360464595,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1fcdc24506e7c9de",
+        "name" : "Request",
+        "source" : "1fcdc24506e7c9de.json",
+        "type" : "application/json",
+        "size" : 170
+      }, {
+        "uid" : "c7fe3e140114ee7f",
+        "name" : "Response",
+        "source" : "c7fe3e140114ee7f.json",
+        "type" : "application/json",
+        "size" : 501
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/c85f8ba5a89c8d8b84f1e99a09752a61/screenshot",
+      "time" : {
+        "start" : 1564360464596,
+        "stop" : 1564360465596,
+        "duration" : 1000
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Argument was an invalid selector (e.g. XPath/CSS).\n                    at element(\"li[class='restaurant-wrapper peyaCard show'] section:nth-child(2) header:first-child h3:first-child a:first-child*=Gourmet\") - index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4117cf38181b7d00",
+        "name" : "Screenshot",
+        "source" : "4117cf38181b7d00.png",
+        "type" : "image/png",
+        "size" : 1176365
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I verify all restaurants have the word “Gourmet” in their name"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5ee33484d078ff3.json",
+  "parameterValues" : [ "chrome" ]
+}

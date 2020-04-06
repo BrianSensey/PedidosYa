@@ -1,0 +1,174 @@
+{
+  "uid" : "e431f222dc0a6fae",
+  "name" : "I search \"Fainá\" in menu search field",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I search \"Fainá\" in menu search field",
+  "historyId" : "1b6add55adca2a6c113f4745609f9b48",
+  "time" : {
+    "start" : 1563988305138,
+    "stop" : 1563988305795,
+    "duration" : 657
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "this.orderOption is not a function",
+  "statusTrace" : "TypeError: this.orderOption is not a function\n                    at ExcerciseSearch.clickOrdertOption (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/pageobjects/ExcerciseSearch.page.js:61:14)\n                    at World.<anonymous> (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/stepDefinitions/search.steps.js:47:22)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/brianduenas/Documents/TrainingQA/PedidosYa/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "this.orderOption is not a function",
+    "statusTrace" : "TypeError: this.orderOption is not a function\n                    at ExcerciseSearch.clickOrdertOption (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/pageobjects/ExcerciseSearch.page.js:61:14)\n                    at World.<anonymous> (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/stepDefinitions/search.steps.js:47:22)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/brianduenas/Documents/TrainingQA/PedidosYa/node_modules/core-js/library/modules/_export.js:36:28)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/e3745262a12f871a964dc66bbb4153e3/element",
+      "time" : {
+        "start" : 1563988305140,
+        "stop" : 1563988305163,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db4c25b61718af23",
+        "name" : "Request",
+        "source" : "db4c25b61718af23.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "b705e17af66c7f7b",
+        "name" : "Response",
+        "source" : "b705e17af66c7f7b.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/e3745262a12f871a964dc66bbb4153e3/element/0.9499835374674839-1/clear",
+      "time" : {
+        "start" : 1563988305166,
+        "stop" : 1563988305201,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "88b6da58c53d1bd3",
+        "name" : "Response",
+        "source" : "88b6da58c53d1bd3.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/e3745262a12f871a964dc66bbb4153e3/element/0.9499835374674839-1/value",
+      "time" : {
+        "start" : 1563988305201,
+        "stop" : 1563988305771,
+        "duration" : 570
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "91b477ab2ac6d9be",
+        "name" : "Request",
+        "source" : "91b477ab2ac6d9be.json",
+        "type" : "application/json",
+        "size" : 111
+      }, {
+        "uid" : "3a9fdfd6269cfd09",
+        "name" : "Response",
+        "source" : "3a9fdfd6269cfd09.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/e3745262a12f871a964dc66bbb4153e3/element",
+      "time" : {
+        "start" : 1563988305773,
+        "stop" : 1563988305787,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9874075d85ab094",
+        "name" : "Request",
+        "source" : "f9874075d85ab094.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "42da945c2d0223c6",
+        "name" : "Response",
+        "source" : "42da945c2d0223c6.json",
+        "type" : "application/json",
+        "size" : 633
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I search \"Fainá\" in menu search field"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e431f222dc0a6fae.json",
+  "parameterValues" : [ "chrome" ]
+}

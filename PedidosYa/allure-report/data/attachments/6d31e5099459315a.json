@@ -1,0 +1,11 @@
+{
+    "script": "return (function (elemArray) {\n            var focused = document.activeElement;\n            if (!focused) {\n                return false;\n            }\n\n            return elemArray.filter(function (elem) {\n                return focused === elem;\n            }).length > 0;\n        }).apply(null, arguments)",
+    "args": [
+        [
+            {
+                "ELEMENT": "0.43928260073334147-2",
+                "element-6066-11e4-a52e-4f735466cecf": "0.43928260073334147-2"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,121 @@
+{
+  "uid" : "d7dce69731446d51",
+  "name" : "I verify all restaurants have the word “Gourmet” in their name",
+  "fullName" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name.I verify all restaurants have the word “Gourmet” in their name",
+  "historyId" : "8346927f4034c3ea629cdc754eccd560",
+  "time" : {
+    "start" : 1564360542555,
+    "stop" : 1564360543408,
+    "duration" : 853
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid selector: An invalid or illegal selector was specified",
+  "statusTrace" : "Error: Argument was an invalid selector (e.g. XPath/CSS).\n                    at element(\"a:first-child*=Gourmet\") - index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid selector: An invalid or illegal selector was specified",
+    "statusTrace" : "Error: Argument was an invalid selector (e.g. XPath/CSS).\n                    at element(\"a:first-child*=Gourmet\") - index.js:316:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/31a9bc1d83c8d2cc04d7e28af82c1d78/element",
+      "time" : {
+        "start" : 1564360542556,
+        "stop" : 1564360542581,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6f03b72150c56b0e",
+        "name" : "Request",
+        "source" : "6f03b72150c56b0e.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "7a380302d785335",
+        "name" : "Response",
+        "source" : "7a380302d785335.json",
+        "type" : "application/json",
+        "size" : 501
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/31a9bc1d83c8d2cc04d7e28af82c1d78/screenshot",
+      "time" : {
+        "start" : 1564360542583,
+        "stop" : 1564360543408,
+        "duration" : 825
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Argument was an invalid selector (e.g. XPath/CSS).\n                    at element(\"a:first-child*=Gourmet\") - index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dc995a826adfac5e",
+        "name" : "Screenshot",
+        "source" : "dc995a826adfac5e.png",
+        "type" : "image/png",
+        "size" : 840237
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I verify all restaurants have the word “Gourmet” in their name"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d7dce69731446d51.json",
+  "parameterValues" : [ "chrome" ]
+}

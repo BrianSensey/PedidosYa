@@ -1,0 +1,191 @@
+{
+  "uid" : "4ac3acec2995515a",
+  "name" : "I search \"Frankfruter con panceta\" in menu search field",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I search \"Frankfruter con panceta\" in menu search field",
+  "historyId" : "ee7ecf2cdda862651bc188b7a788bc25",
+  "time" : {
+    "start" : 1564012631304,
+    "stop" : 1564012635314,
+    "duration" : 4010
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/24ad392572321ac6650b5cd52a2a9f6a/element",
+      "time" : {
+        "start" : 1564012631306,
+        "stop" : 1564012631322,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aa6a5e011055bafe",
+        "name" : "Request",
+        "source" : "aa6a5e011055bafe.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "cc01a234b347bffe",
+        "name" : "Response",
+        "source" : "cc01a234b347bffe.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/24ad392572321ac6650b5cd52a2a9f6a/element/0.9568829732535491-1/clear",
+      "time" : {
+        "start" : 1564012631324,
+        "stop" : 1564012631346,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e34adcd508b3ae35",
+        "name" : "Response",
+        "source" : "e34adcd508b3ae35.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/24ad392572321ac6650b5cd52a2a9f6a/element/0.9568829732535491-1/value",
+      "time" : {
+        "start" : 1564012631346,
+        "stop" : 1564012632231,
+        "duration" : 885
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7bb44b10172bd4b9",
+        "name" : "Request",
+        "source" : "7bb44b10172bd4b9.json",
+        "type" : "application/json",
+        "size" : 361
+      }, {
+        "uid" : "b8777d9893c2379d",
+        "name" : "Response",
+        "source" : "b8777d9893c2379d.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/24ad392572321ac6650b5cd52a2a9f6a/element",
+      "time" : {
+        "start" : 1564012635237,
+        "stop" : 1564012635250,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c0d1c2b65698f621",
+        "name" : "Request",
+        "source" : "c0d1c2b65698f621.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "3ecf123c1349f08f",
+        "name" : "Response",
+        "source" : "3ecf123c1349f08f.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/24ad392572321ac6650b5cd52a2a9f6a/element/0.9568829732535491-2/click",
+      "time" : {
+        "start" : 1564012635252,
+        "stop" : 1564012635313,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "91358edac3e2f866",
+        "name" : "Response",
+        "source" : "91358edac3e2f866.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I search \"Frankfruter con panceta\" in menu search field"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4ac3acec2995515a.json",
+  "parameterValues" : [ "chrome" ]
+}

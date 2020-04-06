@@ -1,0 +1,170 @@
+{
+  "uid" : "d0e05309d9b9916b",
+  "name" : "I search \"Frankfruter con panceta\" in menu search field",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I search \"Frankfruter con panceta\" in menu search field",
+  "historyId" : "ee7ecf2cdda862651bc188b7a788bc25",
+  "time" : {
+    "start" : 1564019596988,
+    "stop" : 1564019604017,
+    "duration" : 7029
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/72eb914ce75f73e2e7a588f5e22bd3a2/element",
+      "time" : {
+        "start" : 1564019596989,
+        "stop" : 1564019597022,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e514440c2555531",
+        "name" : "Request",
+        "source" : "3e514440c2555531.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "5a6a617f24bac3d6",
+        "name" : "Response",
+        "source" : "5a6a617f24bac3d6.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/72eb914ce75f73e2e7a588f5e22bd3a2/element/0.17228452182735876-1/clear",
+      "time" : {
+        "start" : 1564019597024,
+        "stop" : 1564019597050,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b18c0ac7c6720920",
+        "name" : "Response",
+        "source" : "b18c0ac7c6720920.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/72eb914ce75f73e2e7a588f5e22bd3a2/element/0.17228452182735876-1/value",
+      "time" : {
+        "start" : 1564019597050,
+        "stop" : 1564019597987,
+        "duration" : 937
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8a68ee361d31ca0b",
+        "name" : "Request",
+        "source" : "8a68ee361d31ca0b.json",
+        "type" : "application/json",
+        "size" : 361
+      }, {
+        "uid" : "3171678f5bedb3ee",
+        "name" : "Response",
+        "source" : "3171678f5bedb3ee.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/72eb914ce75f73e2e7a588f5e22bd3a2/element",
+      "time" : {
+        "start" : 1564019603998,
+        "stop" : 1564019604014,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ca4f7ccfae9fa0c5",
+        "name" : "Request",
+        "source" : "ca4f7ccfae9fa0c5.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "742b8abc86161449",
+        "name" : "Response",
+        "source" : "742b8abc86161449.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I search \"Frankfruter con panceta\" in menu search field"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d0e05309d9b9916b.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,191 @@
+{
+  "uid" : "8e2a0cad92f7c423",
+  "name" : "I appear logged in as \"Tomas\"",
+  "fullName" : "Performing a login Log in with correct credentials.I appear logged in as \"Tomas\"",
+  "historyId" : "14ed06c9f9eb54513a9272d62867d405",
+  "time" : {
+    "start" : 1564074233319,
+    "stop" : 1564074233403,
+    "duration" : 84
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/12d9601fe497bf3f4b0f22739f180a50/element",
+      "time" : {
+        "start" : 1564074233321,
+        "stop" : 1564074233335,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c26a139501c39e08",
+        "name" : "Request",
+        "source" : "c26a139501c39e08.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "93ee414e09e66f3d",
+        "name" : "Response",
+        "source" : "93ee414e09e66f3d.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/12d9601fe497bf3f4b0f22739f180a50/elements",
+      "time" : {
+        "start" : 1564074233340,
+        "stop" : 1564074233352,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e4e4272d1060b696",
+        "name" : "Request",
+        "source" : "e4e4272d1060b696.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "7731a0db18bf8cfc",
+        "name" : "Response",
+        "source" : "7731a0db18bf8cfc.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/12d9601fe497bf3f4b0f22739f180a50/element/0.5518456899932125-1/displayed",
+      "time" : {
+        "start" : 1564074233352,
+        "stop" : 1564074233367,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d87dd8a84d442b1",
+        "name" : "Response",
+        "source" : "d87dd8a84d442b1.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/12d9601fe497bf3f4b0f22739f180a50/element",
+      "time" : {
+        "start" : 1564074233369,
+        "stop" : 1564074233381,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2c825e486c2a4563",
+        "name" : "Request",
+        "source" : "2c825e486c2a4563.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "15f49da8d4eb2354",
+        "name" : "Response",
+        "source" : "15f49da8d4eb2354.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/12d9601fe497bf3f4b0f22739f180a50/element/0.5518456899932125-1/text",
+      "time" : {
+        "start" : 1564074233384,
+        "stop" : 1564074233402,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3b04d9344db0917e",
+        "name" : "Response",
+        "source" : "3b04d9344db0917e.json",
+        "type" : "application/json",
+        "size" : 94
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Log in with correct credentials"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login Log in with correct credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login Log in with correct credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "I appear logged in as \"Tomas\""
+  }, {
+    "name" : "package",
+    "value" : "Performing a login Log in with correct credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8e2a0cad92f7c423.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,420 @@
+{
+  "uid" : "3aac5bcbd0e79999",
+  "name" : "I am on the home page",
+  "fullName" : "Performing a login Log in with correct credentials.I am on the home page",
+  "historyId" : "e81a72e5d8f8881590e4284158677d4f",
+  "time" : {
+    "start" : 1564082316120,
+    "stop" : 1564082326296,
+    "duration" : 10176
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/c4b92cb7ed6c560ff6f48fc5ce53bdf0/url",
+      "time" : {
+        "start" : 1564082316123,
+        "stop" : 1564082326240,
+        "duration" : 10117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "70a42746970e20f2",
+        "name" : "Request",
+        "source" : "70a42746970e20f2.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "291ca6108fa4c387",
+        "name" : "Response",
+        "source" : "291ca6108fa4c387.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/c4b92cb7ed6c560ff6f48fc5ce53bdf0/element",
+      "time" : {
+        "start" : 1564082326244,
+        "stop" : 1564082326260,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7673453465836571",
+        "name" : "Request",
+        "source" : "7673453465836571.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "efcf165a544fd8e8",
+        "name" : "Response",
+        "source" : "efcf165a544fd8e8.json",
+        "type" : "application/json",
+        "size" : 135
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/c4b92cb7ed6c560ff6f48fc5ce53bdf0/elements",
+      "time" : {
+        "start" : 1564082326265,
+        "stop" : 1564082326279,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "91e06ddf805970b3",
+        "name" : "Request",
+        "source" : "91e06ddf805970b3.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "f123de2eb26935a",
+        "name" : "Response",
+        "source" : "f123de2eb26935a.json",
+        "type" : "application/json",
+        "size" : 159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/c4b92cb7ed6c560ff6f48fc5ce53bdf0/element/0.952045580435614-1/displayed",
+      "time" : {
+        "start" : 1564082326280,
+        "stop" : 1564082326293,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9c2511baba81a784",
+        "name" : "Response",
+        "source" : "9c2511baba81a784.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Log in with correct credentials"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login Log in with correct credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login Log in with correct credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login Log in with correct credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "393e5518e46a830b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564074712319,
+        "stop" : 1564074745504,
+        "duration" : 33185
+      }
+    }, {
+      "uid" : "fb1a24bf3851fcc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564074206114,
+        "stop" : 1564074218765,
+        "duration" : 12651
+      }
+    }, {
+      "uid" : "b20e6182c783a9ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564074078949,
+        "stop" : 1564074090800,
+        "duration" : 11851
+      }
+    }, {
+      "uid" : "a8f99d5db56b59c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564073909776,
+        "stop" : 1564073917414,
+        "duration" : 7638
+      }
+    }, {
+      "uid" : "b1b690a060e46a11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564073842211,
+        "stop" : 1564073851032,
+        "duration" : 8821
+      }
+    }, {
+      "uid" : "9c75188628fa41e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564073817161,
+        "stop" : 1564073823261,
+        "duration" : 6100
+      }
+    }, {
+      "uid" : "eca367a547dc85d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563827691241,
+        "stop" : 1563827698469,
+        "duration" : 7228
+      }
+    }, {
+      "uid" : "695e49cffebb276e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563827272441,
+        "stop" : 1563827280741,
+        "duration" : 8300
+      }
+    }, {
+      "uid" : "ac175cf0f6ea69bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563817718606,
+        "stop" : 1563817723458,
+        "duration" : 4852
+      }
+    }, {
+      "uid" : "7485a004fba9e6b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563817535388,
+        "stop" : 1563817540088,
+        "duration" : 4700
+      }
+    }, {
+      "uid" : "f6bb07a0f3a8bc88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563816022909,
+        "stop" : 1563816027554,
+        "duration" : 4645
+      }
+    }, {
+      "uid" : "cb81d4933704c72c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563815014702,
+        "stop" : 1563815020888,
+        "duration" : 6186
+      }
+    }, {
+      "uid" : "7f72c4c78bf6812a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563813054524,
+        "stop" : 1563813061134,
+        "duration" : 6610
+      }
+    }, {
+      "uid" : "44801673ad10ddf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563812636637,
+        "stop" : 1563812643422,
+        "duration" : 6785
+      }
+    }, {
+      "uid" : "6325019d330fe68c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563806855128,
+        "stop" : 1563806860693,
+        "duration" : 5565
+      }
+    }, {
+      "uid" : "c984e0a5390d3b38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563806828707,
+        "stop" : 1563806833913,
+        "duration" : 5206
+      }
+    }, {
+      "uid" : "75e5df7959d624da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563806611228,
+        "stop" : 1563806616415,
+        "duration" : 5187
+      }
+    }, {
+      "uid" : "687370f59f689a94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563806485730,
+        "stop" : 1563806491661,
+        "duration" : 5931
+      }
+    }, {
+      "uid" : "f89c09671a205da3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563806460823,
+        "stop" : 1563806465200,
+        "duration" : 4377
+      }
+    }, {
+      "uid" : "1b205fdc79e029b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563806409232,
+        "stop" : 1563806415128,
+        "duration" : 5896
+      }
+    }, {
+      "uid" : "e372dbc92c73dafe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563806300848,
+        "stop" : 1563806306248,
+        "duration" : 5400
+      }
+    }, {
+      "uid" : "6de00bb4aa28fc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563806036541,
+        "stop" : 1563806042693,
+        "duration" : 6152
+      }
+    }, {
+      "uid" : "8bf6f51ae893e5ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563666823379,
+        "stop" : 1563666829178,
+        "duration" : 5799
+      }
+    }, {
+      "uid" : "7405a790605dc2e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563665894365,
+        "stop" : 1563665899108,
+        "duration" : 4743
+      }
+    }, {
+      "uid" : "198bb7ebda13fe61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563665854044,
+        "stop" : 1563665859906,
+        "duration" : 5862
+      }
+    }, {
+      "uid" : "3ca86a92efb0b8ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563665834440,
+        "stop" : 1563665838481,
+        "duration" : 4041
+      }
+    }, {
+      "uid" : "9c4c632c89169cdf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563665775990,
+        "stop" : 1563665781062,
+        "duration" : 5072
+      }
+    }, {
+      "uid" : "af146f1081c0276b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563665174510,
+        "stop" : 1563665179063,
+        "duration" : 4553
+      }
+    }, {
+      "uid" : "fdc0f47f5ea521c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563665076945,
+        "stop" : 1563665082209,
+        "duration" : 5264
+      }
+    }, {
+      "uid" : "ad10ad2759cf8775",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563664925854,
+        "stop" : 1563664930888,
+        "duration" : 5034
+      }
+    }, {
+      "uid" : "655837bb302939ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563664897663,
+        "stop" : 1563664903396,
+        "duration" : 5733
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3aac5bcbd0e79999.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,245 @@
+{
+  "uid" : "3d090dbdd12e2b8",
+  "name" : "I search \"Fainá\" in menu search field",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I search \"Fainá\" in menu search field",
+  "historyId" : "1b6add55adca2a6c113f4745609f9b48",
+  "time" : {
+    "start" : 1564004453713,
+    "stop" : 1564004454690,
+    "duration" : 977
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"#menuSearch\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"#menuSearch\").\n                    at setValue(\"Fainá\") - index.js:316:3",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"#menuSearch\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"#menuSearch\").\n                    at setValue(\"Fainá\") - index.js:316:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/7ad7f136915741d6c7f973d391cc21c8/element",
+      "time" : {
+        "start" : 1564004453714,
+        "stop" : 1564004453732,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "81d913671fe0a488",
+        "name" : "Request",
+        "source" : "81d913671fe0a488.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "4e696268bce09462",
+        "name" : "Response",
+        "source" : "4e696268bce09462.json",
+        "type" : "application/json",
+        "size" : 605
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/7ad7f136915741d6c7f973d391cc21c8/screenshot",
+      "time" : {
+        "start" : 1564004453734,
+        "stop" : 1564004454690,
+        "duration" : 956
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"#menuSearch\").\n                    at setValue(\"Fainá\") - index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c5496bb71b59e69c",
+        "name" : "Screenshot",
+        "source" : "c5496bb71b59e69c.png",
+        "type" : "image/png",
+        "size" : 1096971
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I search \"Fainá\" in menu search field"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "31e1c13528589e0c",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"#menuSearch\").",
+      "time" : {
+        "start" : 1564004416088,
+        "stop" : 1564004416910,
+        "duration" : 822
+      }
+    }, {
+      "uid" : "13bd47c279457747",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1563999397236,
+        "stop" : 1563999397236,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b701f9c08b1c69d0",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1563999063228,
+        "stop" : 1563999063228,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "58c5abe1edb07571",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1563998977567,
+        "stop" : 1563998977568,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "6891c5a6fc7b2c23",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1563998930491,
+        "stop" : 1563998930491,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7fcb5d1fb132ef9a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1563998586424,
+        "stop" : 1563998586424,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "943ed39829f9cec8",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1563996785118,
+        "stop" : 1563996785118,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fa35bd312e9f5747",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1563996605748,
+        "stop" : 1563996605748,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f04dfe2146802bd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563993415273,
+        "stop" : 1563993415993,
+        "duration" : 720
+      }
+    }, {
+      "uid" : "4f7ade10c2248005",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"[data-sectionname='Fainá']\").",
+      "time" : {
+        "start" : 1563988618004,
+        "stop" : 1563988619256,
+        "duration" : 1252
+      }
+    }, {
+      "uid" : "bf1ae44311649efa",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"[data-sectionname='Fainá']\").",
+      "time" : {
+        "start" : 1563988446407,
+        "stop" : 1563988447612,
+        "duration" : 1205
+      }
+    }, {
+      "uid" : "b7b2f68804323868",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"[data-sectionname=Fainá]\").",
+      "time" : {
+        "start" : 1563988393897,
+        "stop" : 1563988395157,
+        "duration" : 1260
+      }
+    }, {
+      "uid" : "e431f222dc0a6fae",
+      "status" : "broken",
+      "statusDetails" : "this.orderOption is not a function",
+      "time" : {
+        "start" : 1563988305138,
+        "stop" : 1563988305795,
+        "duration" : 657
+      }
+    }, {
+      "uid" : "d92bd93bf07f5cbb",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'waitForVisible' of undefined",
+      "time" : {
+        "start" : 1563988276362,
+        "stop" : 1563988277033,
+        "duration" : 671
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3d090dbdd12e2b8.json",
+  "parameterValues" : [ "chrome" ]
+}

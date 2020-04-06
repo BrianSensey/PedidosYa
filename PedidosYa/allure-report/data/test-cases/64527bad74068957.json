@@ -1,0 +1,121 @@
+{
+  "uid" : "64527bad74068957",
+  "name" : "I verify the price of the order",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I verify the price of the order",
+  "historyId" : "6f797e79b3dddef1e6d16f1d0873e50d",
+  "time" : {
+    "start" : 1564250754578,
+    "stop" : 1564250755049,
+    "duration" : 471
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"section[class='prefooterinfo has-discount'] div:nth-child(2)\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"section[class='prefooterinfo has-discount'] div:nth-child(2)\").\n                    at getText() - index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"section[class='prefooterinfo has-discount'] div:nth-child(2)\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"section[class='prefooterinfo has-discount'] div:nth-child(2)\").\n                    at getText() - index.js:316:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/b8db2dd82101d17378c78229b651206a/element",
+      "time" : {
+        "start" : 1564250754579,
+        "stop" : 1564250754592,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9aa0ff76bf784859",
+        "name" : "Request",
+        "source" : "9aa0ff76bf784859.json",
+        "type" : "application/json",
+        "size" : 108
+      }, {
+        "uid" : "98f293443d49a8c9",
+        "name" : "Response",
+        "source" : "98f293443d49a8c9.json",
+        "type" : "application/json",
+        "size" : 703
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/b8db2dd82101d17378c78229b651206a/screenshot",
+      "time" : {
+        "start" : 1564250754594,
+        "stop" : 1564250755049,
+        "duration" : 455
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"section[class='prefooterinfo has-discount'] div:nth-child(2)\").\n                    at getText() - index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2822a86873284da5",
+        "name" : "Screenshot",
+        "source" : "2822a86873284da5.png",
+        "type" : "image/png",
+        "size" : 130734
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I verify the price of the order"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64527bad74068957.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,196 @@
+{
+  "uid" : "44cefd7cc2134e0d",
+  "name" : "I search \"Frankfruter con panceta\" in menu search field",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I search \"Frankfruter con panceta\" in menu search field",
+  "historyId" : "ee7ecf2cdda862651bc188b7a788bc25",
+  "time" : {
+    "start" : 1564012746902,
+    "stop" : 1564012751261,
+    "duration" : 4359
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"[class='highlight]\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"[class='highlight]\").\n                    at click() - index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"[class='highlight]\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"[class='highlight]\").\n                    at click() - index.js:316:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/cb76e557aa9e9bc72fe89196ec943605/element",
+      "time" : {
+        "start" : 1564012746903,
+        "stop" : 1564012746923,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b53d3fe2462c397a",
+        "name" : "Request",
+        "source" : "b53d3fe2462c397a.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "8c896500eae50dbf",
+        "name" : "Response",
+        "source" : "8c896500eae50dbf.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/cb76e557aa9e9bc72fe89196ec943605/element/0.9325786894814316-1/clear",
+      "time" : {
+        "start" : 1564012746924,
+        "stop" : 1564012746948,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a848ac0683897ba",
+        "name" : "Response",
+        "source" : "a848ac0683897ba.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/cb76e557aa9e9bc72fe89196ec943605/element/0.9325786894814316-1/value",
+      "time" : {
+        "start" : 1564012746948,
+        "stop" : 1564012747777,
+        "duration" : 829
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "19f803a87bf9f15e",
+        "name" : "Request",
+        "source" : "19f803a87bf9f15e.json",
+        "type" : "application/json",
+        "size" : 361
+      }, {
+        "uid" : "83ca58795c1aa320",
+        "name" : "Response",
+        "source" : "83ca58795c1aa320.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/cb76e557aa9e9bc72fe89196ec943605/element",
+      "time" : {
+        "start" : 1564012750786,
+        "stop" : 1564012750802,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cc14fe9203889081",
+        "name" : "Request",
+        "source" : "cc14fe9203889081.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "161fdbc5406071fe",
+        "name" : "Response",
+        "source" : "161fdbc5406071fe.json",
+        "type" : "application/json",
+        "size" : 619
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/cb76e557aa9e9bc72fe89196ec943605/screenshot",
+      "time" : {
+        "start" : 1564012750803,
+        "stop" : 1564012751261,
+        "duration" : 458
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"[class='highlight]\").\n                    at click() - index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dab740387b69502e",
+        "name" : "Screenshot",
+        "source" : "dab740387b69502e.png",
+        "type" : "image/png",
+        "size" : 152053
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I search \"Frankfruter con panceta\" in menu search field"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "44cefd7cc2134e0d.json",
+  "parameterValues" : [ "chrome" ]
+}

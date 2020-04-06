@@ -1,0 +1,169 @@
+{
+  "uid" : "12856082b27db4a9",
+  "name" : "I verify the price of the order",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I verify the price of the order",
+  "historyId" : "6f797e79b3dddef1e6d16f1d0873e50d",
+  "time" : {
+    "start" : 1564250823175,
+    "stop" : 1564250823703,
+    "duration" : 528
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"section[class='prefooterinfo has-discount'] div:nth-child(2)\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"section[class='prefooterinfo has-discount'] div:nth-child(2)\").\n                    at getText() - index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"section[class='prefooterinfo has-discount'] div:nth-child(2)\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"section[class='prefooterinfo has-discount'] div:nth-child(2)\").\n                    at getText() - index.js:316:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/52b155f71c6e47d32e7d601d6045cbdc/element",
+      "time" : {
+        "start" : 1564250823176,
+        "stop" : 1564250823188,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "59b065ba49223177",
+        "name" : "Request",
+        "source" : "59b065ba49223177.json",
+        "type" : "application/json",
+        "size" : 114
+      }, {
+        "uid" : "636014da418c761e",
+        "name" : "Response",
+        "source" : "636014da418c761e.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/52b155f71c6e47d32e7d601d6045cbdc/element/0.1814487104383724-4/text",
+      "time" : {
+        "start" : 1564250823190,
+        "stop" : 1564250823206,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9e438b85a1fa36e1",
+        "name" : "Response",
+        "source" : "9e438b85a1fa36e1.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/52b155f71c6e47d32e7d601d6045cbdc/element",
+      "time" : {
+        "start" : 1564250823206,
+        "stop" : 1564250823220,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c8ef30cea44aa3e4",
+        "name" : "Request",
+        "source" : "c8ef30cea44aa3e4.json",
+        "type" : "application/json",
+        "size" : 108
+      }, {
+        "uid" : "5d1748f1953ab11",
+        "name" : "Response",
+        "source" : "5d1748f1953ab11.json",
+        "type" : "application/json",
+        "size" : 703
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/52b155f71c6e47d32e7d601d6045cbdc/screenshot",
+      "time" : {
+        "start" : 1564250823223,
+        "stop" : 1564250823703,
+        "duration" : 480
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"section[class='prefooterinfo has-discount'] div:nth-child(2)\").\n                    at getText() - index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c22f8a02774bac6f",
+        "name" : "Screenshot",
+        "source" : "c22f8a02774bac6f.png",
+        "type" : "image/png",
+        "size" : 130734
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I verify the price of the order"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "12856082b27db4a9.json",
+  "parameterValues" : [ "chrome" ]
+}

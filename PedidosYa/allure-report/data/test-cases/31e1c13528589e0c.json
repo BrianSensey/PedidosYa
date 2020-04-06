@@ -1,0 +1,121 @@
+{
+  "uid" : "31e1c13528589e0c",
+  "name" : "I search \"Fainá\" in menu search field",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I search \"Fainá\" in menu search field",
+  "historyId" : "1b6add55adca2a6c113f4745609f9b48",
+  "time" : {
+    "start" : 1564004416088,
+    "stop" : 1564004416910,
+    "duration" : 822
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"#menuSearch\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"#menuSearch\").\n                    at setValue(\"Fainá\") - index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"#menuSearch\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"#menuSearch\").\n                    at setValue(\"Fainá\") - index.js:316:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/1b43e1c9b7379bfe9bcabd5b87d302e0/element",
+      "time" : {
+        "start" : 1564004416089,
+        "stop" : 1564004416103,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f0e21de59c63895e",
+        "name" : "Request",
+        "source" : "f0e21de59c63895e.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "535eed28bb1f956f",
+        "name" : "Response",
+        "source" : "535eed28bb1f956f.json",
+        "type" : "application/json",
+        "size" : 605
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/1b43e1c9b7379bfe9bcabd5b87d302e0/screenshot",
+      "time" : {
+        "start" : 1564004416105,
+        "stop" : 1564004416910,
+        "duration" : 805
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"#menuSearch\").\n                    at setValue(\"Fainá\") - index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2ff3c176a1d0c928",
+        "name" : "Screenshot",
+        "source" : "2ff3c176a1d0c928.png",
+        "type" : "image/png",
+        "size" : 987730
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I search \"Fainá\" in menu search field"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "31e1c13528589e0c.json",
+  "parameterValues" : [ "chrome" ]
+}

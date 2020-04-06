@@ -1,0 +1,197 @@
+{
+  "uid" : "94c83f510a146cbc",
+  "name" : "I search \"Pizza con mozzarella\" in menu search field",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I search \"Pizza con mozzarella\" in menu search field",
+  "historyId" : "5d78ad0a50372767c17431178b27e078",
+  "time" : {
+    "start" : 1564007451550,
+    "stop" : 1564007452086,
+    "duration" : 536
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/08f71ec29aa88847f30e2f928a9a48ad/element",
+      "time" : {
+        "start" : 1564007451551,
+        "stop" : 1564007451570,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5a6fc4f2c573f4fc",
+        "name" : "Request",
+        "source" : "5a6fc4f2c573f4fc.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "46dc66d083034603",
+        "name" : "Response",
+        "source" : "46dc66d083034603.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/08f71ec29aa88847f30e2f928a9a48ad/element/0.7719835505034836-1/clear",
+      "time" : {
+        "start" : 1564007451572,
+        "stop" : 1564007451594,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "703e52f0d277a5e",
+        "name" : "Response",
+        "source" : "703e52f0d277a5e.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/08f71ec29aa88847f30e2f928a9a48ad/element/0.7719835505034836-1/value",
+      "time" : {
+        "start" : 1564007451594,
+        "stop" : 1564007452064,
+        "duration" : 470
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5fd2bcd4053674b6",
+        "name" : "Request",
+        "source" : "5fd2bcd4053674b6.json",
+        "type" : "application/json",
+        "size" : 319
+      }, {
+        "uid" : "d61e9bfdcaba455e",
+        "name" : "Response",
+        "source" : "d61e9bfdcaba455e.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/08f71ec29aa88847f30e2f928a9a48ad/element",
+      "time" : {
+        "start" : 1564007452065,
+        "stop" : 1564007452078,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cbf9ac30187c4939",
+        "name" : "Request",
+        "source" : "cbf9ac30187c4939.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "90e5631f7b08f804",
+        "name" : "Response",
+        "source" : "90e5631f7b08f804.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/08f71ec29aa88847f30e2f928a9a48ad/element",
+      "time" : {
+        "start" : 1564007452078,
+        "stop" : 1564007452085,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ec4d50d13f2b4cee",
+        "name" : "Request",
+        "source" : "ec4d50d13f2b4cee.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "7027c5a1d4bb4343",
+        "name" : "Response",
+        "source" : "7027c5a1d4bb4343.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I search \"Pizza con mozzarella\" in menu search field"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "94c83f510a146cbc.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,175 @@
+{
+  "uid" : "15625f54e495ce2d",
+  "name" : "I choose a restaurant option",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I choose a restaurant option",
+  "historyId" : "a56b94bcd5e968b6e364ef120660c950",
+  "time" : {
+    "start" : 1563921792262,
+    "stop" : 1563921793277,
+    "duration" : 1015
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid selector: An invalid or illegal selector was specified",
+  "statusTrace" : "Error: Argument was an invalid selector (e.g. XPath/CSS).\n                    at getText(\".rating-points.box_split_review_0*=\") - at elements(\".rating-points.box_split_review_0*=\") - getText.js:18:17",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid selector: An invalid or illegal selector was specified",
+    "statusTrace" : "Error: Argument was an invalid selector (e.g. XPath/CSS).\n                    at getText(\".rating-points.box_split_review_0*=\") - at elements(\".rating-points.box_split_review_0*=\") - getText.js:18:17",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/6b22ed6bf9d43fc3fbbe88596a03b014/elements",
+      "time" : {
+        "start" : 1563921792263,
+        "stop" : 1563921792288,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6d84ead31c98103f",
+        "name" : "Request",
+        "source" : "6d84ead31c98103f.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "1afa8bce25057cea",
+        "name" : "Response",
+        "source" : "1afa8bce25057cea.json",
+        "type" : "application/json",
+        "size" : 229
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/6b22ed6bf9d43fc3fbbe88596a03b014/elements",
+      "time" : {
+        "start" : 1563921792291,
+        "stop" : 1563921792300,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5e88840b09514692",
+        "name" : "Request",
+        "source" : "5e88840b09514692.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "17034fafac156fa9",
+        "name" : "Response",
+        "source" : "17034fafac156fa9.json",
+        "type" : "application/json",
+        "size" : 229
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/6b22ed6bf9d43fc3fbbe88596a03b014/elements",
+      "time" : {
+        "start" : 1563921792303,
+        "stop" : 1563921792315,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c5beddd8ea6852b4",
+        "name" : "Request",
+        "source" : "c5beddd8ea6852b4.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "d7c22e57f7359a6f",
+        "name" : "Response",
+        "source" : "d7c22e57f7359a6f.json",
+        "type" : "application/json",
+        "size" : 501
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/6b22ed6bf9d43fc3fbbe88596a03b014/screenshot",
+      "time" : {
+        "start" : 1563921792318,
+        "stop" : 1563921793277,
+        "duration" : 959
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Argument was an invalid selector (e.g. XPath/CSS).\n                    at getText(\".rating-points.box_split_review_0*=\") - at elements(\".rating-points.box_split_review_0*=\") - getText.js:18:17",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3d9435f7b2448f92",
+        "name" : "Screenshot",
+        "source" : "3d9435f7b2448f92.png",
+        "type" : "image/png",
+        "size" : 1342899
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I choose a restaurant option"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "15625f54e495ce2d.json",
+  "parameterValues" : [ "chrome" ]
+}

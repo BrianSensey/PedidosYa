@@ -1,0 +1,544 @@
+{
+  "uid" : "7e888df1b72d888b",
+  "name" : "I search two \"Húngara porteña\" in menu search field",
+  "fullName" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name.I search two \"Húngara porteña\" in menu search field",
+  "historyId" : "15971f4ae2b06552f3cf1e6ac1532cf7",
+  "time" : {
+    "start" : 1564454930917,
+    "stop" : 1564454934100,
+    "duration" : 3183
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Element <mark class=\"highlight\">...</mark> is not clickable at point (510, 261). Other element would receive the click: <div class=\"tmask\" id=\"\" style=\"height: 2128px; width: 1185px; top: 579px; opacity: 0.4; display: block;\">...</div>",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at elementIdClick(\"0.8733243795439432-2\") - click.js:20:22",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Element <mark class=\"highlight\">...</mark> is not clickable at point (510, 261). Other element would receive the click: <div class=\"tmask\" id=\"\" style=\"height: 2128px; width: 1185px; top: 579px; opacity: 0.4; display: block;\">...</div>",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at elementIdClick(\"0.8733243795439432-2\") - click.js:20:22",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/d6066756de215556491f8385e9268814/element",
+      "time" : {
+        "start" : 1564454930918,
+        "stop" : 1564454930955,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "894ff5e6ceec752f",
+        "name" : "Request",
+        "source" : "894ff5e6ceec752f.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "d38a928b37abde00",
+        "name" : "Response",
+        "source" : "d38a928b37abde00.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/d6066756de215556491f8385e9268814/element/0.8733243795439432-1/clear",
+      "time" : {
+        "start" : 1564454930956,
+        "stop" : 1564454930980,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bc7663191204b977",
+        "name" : "Response",
+        "source" : "bc7663191204b977.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/d6066756de215556491f8385e9268814/element/0.8733243795439432-1/value",
+      "time" : {
+        "start" : 1564454930980,
+        "stop" : 1564454931393,
+        "duration" : 413
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fe272cbb2b3ccab9",
+        "name" : "Request",
+        "source" : "fe272cbb2b3ccab9.json",
+        "type" : "application/json",
+        "size" : 253
+      }, {
+        "uid" : "8436608e2b2af192",
+        "name" : "Response",
+        "source" : "8436608e2b2af192.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/d6066756de215556491f8385e9268814/element",
+      "time" : {
+        "start" : 1564454932399,
+        "stop" : 1564454932414,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee19e39a0fa245c4",
+        "name" : "Request",
+        "source" : "ee19e39a0fa245c4.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "82310c28409ea28d",
+        "name" : "Response",
+        "source" : "82310c28409ea28d.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/d6066756de215556491f8385e9268814/elements",
+      "time" : {
+        "start" : 1564454932416,
+        "stop" : 1564454932429,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2ae825aeaa4063c6",
+        "name" : "Request",
+        "source" : "2ae825aeaa4063c6.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "9af5a4145793d46e",
+        "name" : "Response",
+        "source" : "9af5a4145793d46e.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/d6066756de215556491f8385e9268814/element/0.8733243795439432-2/displayed",
+      "time" : {
+        "start" : 1564454932429,
+        "stop" : 1564454932441,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e46209bb2d55740",
+        "name" : "Response",
+        "source" : "3e46209bb2d55740.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/d6066756de215556491f8385e9268814/element/0.8733243795439432-2/click",
+      "time" : {
+        "start" : 1564454932444,
+        "stop" : 1564454932516,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b26d52ca37a4f658",
+        "name" : "Response",
+        "source" : "b26d52ca37a4f658.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/d6066756de215556491f8385e9268814/element",
+      "time" : {
+        "start" : 1564454933518,
+        "stop" : 1564454933530,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d9dee25036db6890",
+        "name" : "Request",
+        "source" : "d9dee25036db6890.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "96f798c9c7aac4e5",
+        "name" : "Response",
+        "source" : "96f798c9c7aac4e5.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/d6066756de215556491f8385e9268814/elements",
+      "time" : {
+        "start" : 1564454933532,
+        "stop" : 1564454933542,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "81ef0518523cd1c",
+        "name" : "Request",
+        "source" : "81ef0518523cd1c.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "34e56493c8ba1d10",
+        "name" : "Response",
+        "source" : "34e56493c8ba1d10.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/d6066756de215556491f8385e9268814/element/0.8733243795439432-2/displayed",
+      "time" : {
+        "start" : 1564454933542,
+        "stop" : 1564454933550,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4d9274b568e07b06",
+        "name" : "Response",
+        "source" : "4d9274b568e07b06.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/d6066756de215556491f8385e9268814/element/0.8733243795439432-2/click",
+      "time" : {
+        "start" : 1564454933552,
+        "stop" : 1564454933598,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "39c9d77466b03208",
+        "name" : "Response",
+        "source" : "39c9d77466b03208.json",
+        "type" : "application/json",
+        "size" : 907
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/d6066756de215556491f8385e9268814/screenshot",
+      "time" : {
+        "start" : 1564454933601,
+        "stop" : 1564454934100,
+        "duration" : 499
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An unknown server-side error occurred while processing the command.\n                    at elementIdClick(\"0.8733243795439432-2\") - click.js:20:22",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ec47d7374a70f0c4",
+        "name" : "Screenshot",
+        "source" : "ec47d7374a70f0c4.png",
+        "type" : "image/png",
+        "size" : 138170
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 18,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I search two \"Húngara porteña\" in menu search field"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2ce491ab6dc010b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564419570367,
+        "stop" : 1564419574148,
+        "duration" : 3781
+      }
+    }, {
+      "uid" : "3acebb87bc3e20ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564381697414,
+        "stop" : 1564381701582,
+        "duration" : 4168
+      }
+    }, {
+      "uid" : "692b99e2f6cbe8fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564381404561,
+        "stop" : 1564381408576,
+        "duration" : 4015
+      }
+    }, {
+      "uid" : "db36d941a5fb9720",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <mark class=\"highlight\">...</mark> is not clickable at point (510, 261). Other element would receive the click: <div class=\"tmask\" id=\"\" style=\"height: 2053px; width: 1185px; top: 579px; opacity: 1; display: block;\">...</div>",
+      "time" : {
+        "start" : 1564381319367,
+        "stop" : 1564381322592,
+        "duration" : 3225
+      }
+    }, {
+      "uid" : "b4ade708621719eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564381171056,
+        "stop" : 1564381174733,
+        "duration" : 3677
+      }
+    }, {
+      "uid" : "a3526be8e4b2c98d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564379990033,
+        "stop" : 1564379993700,
+        "duration" : 3667
+      }
+    }, {
+      "uid" : "a8187112a9b4bff6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564379851003,
+        "stop" : 1564379854695,
+        "duration" : 3692
+      }
+    }, {
+      "uid" : "6bfc76455f7c1af7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564379728922,
+        "stop" : 1564379732697,
+        "duration" : 3775
+      }
+    }, {
+      "uid" : "f442395bdd3c5151",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564379596839,
+        "stop" : 1564379600513,
+        "duration" : 3674
+      }
+    }, {
+      "uid" : "fcf8cf5b09e63e41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564379389158,
+        "stop" : 1564379392885,
+        "duration" : 3727
+      }
+    }, {
+      "uid" : "82d37b0be9653887",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564379323240,
+        "stop" : 1564379330193,
+        "duration" : 6953
+      }
+    }, {
+      "uid" : "e0114e541f1c8102",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564379156151,
+        "stop" : 1564379159812,
+        "duration" : 3661
+      }
+    }, {
+      "uid" : "a4474cadabbefc9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564378419747,
+        "stop" : 1564378423446,
+        "duration" : 3699
+      }
+    }, {
+      "uid" : "1532f9ead9419296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564378125784,
+        "stop" : 1564378130028,
+        "duration" : 4244
+      }
+    }, {
+      "uid" : "4050effa3bc026f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564378013050,
+        "stop" : 1564378016772,
+        "duration" : 3722
+      }
+    }, {
+      "uid" : "a47b2d802f5704fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564377749747,
+        "stop" : 1564377753444,
+        "duration" : 3697
+      }
+    }, {
+      "uid" : "5793414c0306c3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564377509242,
+        "stop" : 1564377512974,
+        "duration" : 3732
+      }
+    }, {
+      "uid" : "3040a504ae060a8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564377177898,
+        "stop" : 1564377181631,
+        "duration" : 3733
+      }
+    }, {
+      "uid" : "98355b6a89a107c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564376937111,
+        "stop" : 1564376941029,
+        "duration" : 3918
+      }
+    }, {
+      "uid" : "e4720874723f3492",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564376794448,
+        "stop" : 1564376798152,
+        "duration" : 3704
+      }
+    }, {
+      "uid" : "9b808135ef9469c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564376612805,
+        "stop" : 1564376616527,
+        "duration" : 3722
+      }
+    }, {
+      "uid" : "8125b571d9b1a4ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564376564817,
+        "stop" : 1564376569149,
+        "duration" : 4332
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7e888df1b72d888b.json",
+  "parameterValues" : [ "chrome" ]
+}

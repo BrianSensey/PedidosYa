@@ -1,0 +1,121 @@
+{
+  "uid" : "8c60f392c6ce67",
+  "name" : "I verify all restaurants have the word “Gourmet” in their name",
+  "fullName" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name.I verify all restaurants have the word “Gourmet” in their name",
+  "historyId" : "8346927f4034c3ea629cdc754eccd560",
+  "time" : {
+    "start" : 1564362317480,
+    "stop" : 1564362318627,
+    "duration" : 1147
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid selector: An invalid or illegal selector was specified",
+  "statusTrace" : "Error: Argument was an invalid selector (e.g. XPath/CSS).\n                    at elements(\".restaurant-wrapper.peyaCard.show .restaurantData .withLabel .arrivalName*=Gourmet\") - index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid selector: An invalid or illegal selector was specified",
+    "statusTrace" : "Error: Argument was an invalid selector (e.g. XPath/CSS).\n                    at elements(\".restaurant-wrapper.peyaCard.show .restaurantData .withLabel .arrivalName*=Gourmet\") - index.js:316:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/670bc7d585976a61f9ddb08af70bcd18/elements",
+      "time" : {
+        "start" : 1564362317482,
+        "stop" : 1564362317549,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6a88a7c4966db643",
+        "name" : "Request",
+        "source" : "6a88a7c4966db643.json",
+        "type" : "application/json",
+        "size" : 130
+      }, {
+        "uid" : "262a86f28b96435d",
+        "name" : "Response",
+        "source" : "262a86f28b96435d.json",
+        "type" : "application/json",
+        "size" : 501
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/670bc7d585976a61f9ddb08af70bcd18/screenshot",
+      "time" : {
+        "start" : 1564362317550,
+        "stop" : 1564362318627,
+        "duration" : 1077
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Argument was an invalid selector (e.g. XPath/CSS).\n                    at elements(\".restaurant-wrapper.peyaCard.show .restaurantData .withLabel .arrivalName*=Gourmet\") - index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "66dd4619b8a40835",
+        "name" : "Screenshot",
+        "source" : "66dd4619b8a40835.png",
+        "type" : "image/png",
+        "size" : 1135847
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I verify all restaurants have the word “Gourmet” in their name"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search gourmet restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c60f392c6ce67.json",
+  "parameterValues" : [ "chrome" ]
+}

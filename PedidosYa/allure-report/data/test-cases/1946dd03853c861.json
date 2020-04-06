@@ -1,0 +1,313 @@
+{
+  "uid" : "1946dd03853c861",
+  "name" : "I verify the order appears has a discount today and what percentage it is",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I verify the order appears has a discount today and what percentage it is",
+  "historyId" : "9fe60d33428e4bcfe870e7323289c71e",
+  "time" : {
+    "start" : 1564332029282,
+    "stop" : 1564332029329,
+    "duration" : 47
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/cb0f8afbfeb4f72d0867be98d1994663/elements",
+      "time" : {
+        "start" : 1564332029283,
+        "stop" : 1564332029296,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "29838a990c71c20d",
+        "name" : "Request",
+        "source" : "29838a990c71c20d.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "3247e844aa1fbda",
+        "name" : "Response",
+        "source" : "3247e844aa1fbda.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/cb0f8afbfeb4f72d0867be98d1994663/element",
+      "time" : {
+        "start" : 1564332029297,
+        "stop" : 1564332029310,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1755f582d81b1f92",
+        "name" : "Request",
+        "source" : "1755f582d81b1f92.json",
+        "type" : "application/json",
+        "size" : 90
+      }, {
+        "uid" : "d03c0bcc3d706c0",
+        "name" : "Response",
+        "source" : "d03c0bcc3d706c0.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/cb0f8afbfeb4f72d0867be98d1994663/element/0.6298995925897446-5/text",
+      "time" : {
+        "start" : 1564332029313,
+        "stop" : 1564332029328,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9c2d6d059ff2c316",
+        "name" : "Response",
+        "source" : "9c2d6d059ff2c316.json",
+        "type" : "application/json",
+        "size" : 102
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I verify the order appears has a discount today and what percentage it is"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9643e65f2c2901c3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1564325161588,
+        "stop" : 1564325161589,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "5cdda1e29ddf307b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564324598939,
+        "stop" : 1564324599008,
+        "duration" : 69
+      }
+    }, {
+      "uid" : "57799a95a7428ee5",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1564324469817,
+        "stop" : 1564324469818,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e63473f898cc5c50",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1564324390631,
+        "stop" : 1564324390632,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "94d9d9bef996c0ad",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1564324148852,
+        "stop" : 1564324148852,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "44996562ab1c0e9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564323827125,
+        "stop" : 1564323827172,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "119fbb9be2a447a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564294335571,
+        "stop" : 1564294335617,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "8606442120986224",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564251979612,
+        "stop" : 1564251979659,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "fc52529a05a3875",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564251604010,
+        "stop" : 1564251604058,
+        "duration" : 48
+      }
+    }, {
+      "uid" : "4948b5acd94683b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564251481869,
+        "stop" : 1564251481913,
+        "duration" : 44
+      }
+    }, {
+      "uid" : "1dbc0f7c91fbfdd3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564251129668,
+        "stop" : 1564251129712,
+        "duration" : 44
+      }
+    }, {
+      "uid" : "c08dc8c209aa1117",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564250951265,
+        "stop" : 1564250951281,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "6e3d39022559a06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564250874052,
+        "stop" : 1564250874068,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "a68ed23b7efc6ffd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564250823158,
+        "stop" : 1564250823174,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "e58ee27cbf251f22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564250754562,
+        "stop" : 1564250754577,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "887f443487470dc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564250490914,
+        "stop" : 1564250490930,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "5d3db397487c3abf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564249062569,
+        "stop" : 1564249062584,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "eb9eb32dc8be2ccf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564248523362,
+        "stop" : 1564248523376,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "ce3fbd926ceb55c4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1564248233029,
+        "stop" : 1564248233029,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5a693987e858b15d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1564247983608,
+        "stop" : 1564247983609,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7860b63759302b7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564247481102,
+        "stop" : 1564247481147,
+        "duration" : 45
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1946dd03853c861.json",
+  "parameterValues" : [ "chrome" ]
+}

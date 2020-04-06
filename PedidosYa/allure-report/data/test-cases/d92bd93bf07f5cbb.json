@@ -1,0 +1,147 @@
+{
+  "uid" : "d92bd93bf07f5cbb",
+  "name" : "I search \"Fainá\" in menu search field",
+  "fullName" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name.I search \"Fainá\" in menu search field",
+  "historyId" : "1b6add55adca2a6c113f4745609f9b48",
+  "time" : {
+    "start" : 1563988276362,
+    "stop" : 1563988277033,
+    "duration" : 671
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'waitForVisible' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'waitForVisible' of undefined\n                    at ExcerciseSearch.clickOrdertOption (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/pageobjects/ExcerciseSearch.page.js:59:26)\n                    at World.<anonymous> (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/stepDefinitions/search.steps.js:47:22)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/brianduenas/Documents/TrainingQA/PedidosYa/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'waitForVisible' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'waitForVisible' of undefined\n                    at ExcerciseSearch.clickOrdertOption (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/pageobjects/ExcerciseSearch.page.js:59:26)\n                    at World.<anonymous> (/Users/brianduenas/Documents/TrainingQA/PedidosYa/test/stepDefinitions/search.steps.js:47:22)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/brianduenas/Documents/TrainingQA/PedidosYa/node_modules/core-js/library/modules/_export.js:36:28)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/0786c5dff926d243b0d57d29ec5d487f/element",
+      "time" : {
+        "start" : 1563988276363,
+        "stop" : 1563988276376,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "41a66bb066f1e721",
+        "name" : "Request",
+        "source" : "41a66bb066f1e721.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "f7a4ba38ae1bf0d6",
+        "name" : "Response",
+        "source" : "f7a4ba38ae1bf0d6.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/0786c5dff926d243b0d57d29ec5d487f/element/0.2986972617543451-1/clear",
+      "time" : {
+        "start" : 1563988276378,
+        "stop" : 1563988276407,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a156bb40e8d04d81",
+        "name" : "Response",
+        "source" : "a156bb40e8d04d81.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/0786c5dff926d243b0d57d29ec5d487f/element/0.2986972617543451-1/value",
+      "time" : {
+        "start" : 1563988276407,
+        "stop" : 1563988277024,
+        "duration" : 617
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d485981ade91edcf",
+        "name" : "Request",
+        "source" : "d485981ade91edcf.json",
+        "type" : "application/json",
+        "size" : 111
+      }, {
+        "uid" : "fc7b54fbc93e111a",
+        "name" : "Response",
+        "source" : "fc7b54fbc93e111a.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search restaurants by address and restaurant"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "suite",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testClass",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "testMethod",
+    "value" : "I search \"Fainá\" in menu search field"
+  }, {
+    "name" : "package",
+    "value" : "Search restaurants by address and restaurant Search restaurants using both an address and a restaurant name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d92bd93bf07f5cbb.json",
+  "parameterValues" : [ "chrome" ]
+}
